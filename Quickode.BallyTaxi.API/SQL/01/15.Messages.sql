@@ -1,0 +1,24 @@
+﻿CREATE TABLE dbo.Messages
+	(
+	MessageId int IDENTITY(1,1) NOT NULL,
+	Subject nvarchar(200) NOT NULL,
+	MessageContent nvarchar(4000) NOT NULL,
+	UserId bigint NOT NULL,
+	CONSTRAINT [PK_Messages] PRIMARY KEY CLUSTERED 
+	(
+	[MessageId] ASC 
+	) WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+	) ON [PRIMARY]
+GO
+
+
+ALTER TABLE dbo.Messages ADD CONSTRAINT
+	FK_Messages_Users FOREIGN KEY
+	(
+	UserId
+	) REFERENCES dbo.Users
+	(
+	UserId
+	) ON UPDATE  NO ACTION 
+	 ON DELETE  NO ACTION 	
+GO

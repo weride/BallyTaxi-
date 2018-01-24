@@ -1,0 +1,1099 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BallyTaxiModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Accounts">
+    <Key>
+      <PropertyRef Name="AccountId" />
+    </Key>
+    <Property Name="AccountId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" Nullable="false" />
+    <Property Name="Status" Type="bit" Nullable="false" />
+    <Property Name="BusinessId" Type="int" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Role" Type="int" />
+  </EntityType>
+  <EntityType Name="AccountsForAdmin">
+    <Key>
+      <PropertyRef Name="accountId" />
+    </Key>
+    <Property Name="accountId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userName" Type="nvarchar" MaxLength="50" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" />
+    <Property Name="roleId" Type="int" />
+  </EntityType>
+  <EntityType Name="Banks">
+    <Key>
+      <PropertyRef Name="bankId" />
+    </Key>
+    <Property Name="bankId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="bankName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="BusinessApprovedPhones">
+    <Key>
+      <PropertyRef Name="BusinessApprovedPhoneId" />
+    </Key>
+    <Property Name="BusinessApprovedPhoneId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BusinessId" Type="int" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="30" />
+    <Property Name="ApprovedDate" Type="datetime" Nullable="false" />
+    <Property Name="CancelledDate" Type="date" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Businesses">
+    <Key>
+      <PropertyRef Name="BusinessId" />
+    </Key>
+    <Property Name="BusinessId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IsoCountry" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="BusinessName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="PayPalAccountId" Type="nvarchar" MaxLength="200" />
+    <Property Name="Phone" Type="varchar" MaxLength="50" />
+    <Property Name="isNeedFile" Type="bit" />
+    <Property Name="CompanyPhone" Type="nvarchar" MaxLength="50" />
+    <Property Name="isReadTermsofUse" Type="bit" />
+    <Property Name="isActive" Type="bit" />
+    <Property Name="taxiStationId" Type="int" />
+    <Property Name="defaultLocationAddress" Type="geography" />
+  </EntityType>
+  <EntityType Name="CarTypes">
+    <Key>
+      <PropertyRef Name="CarTypeId" />
+    </Key>
+    <Property Name="CarTypeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HebrewName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="EnglishName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="StationOperator" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsoCountry" Type="varchar" MaxLength="2" />
+    <Property Name="Region" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="CountryCodes">
+    <Key>
+      <PropertyRef Name="name" />
+      <PropertyRef Name="ISO31661Alpha2" />
+    </Key>
+    <Property Name="name" Type="varchar" MaxLength="44" Nullable="false" />
+    <Property Name="hebrewName" Type="nchar" MaxLength="30" />
+    <Property Name="name_fr" Type="varchar" MaxLength="44" />
+    <Property Name="ISO31661Alpha2" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="ISO31661Alpha3" Type="varchar" MaxLength="3" />
+    <Property Name="ISO31661numeric" Type="varchar" MaxLength="3" />
+    <Property Name="ITU" Type="varchar" MaxLength="3" />
+    <Property Name="MARC" Type="varchar" MaxLength="14" />
+    <Property Name="WMO" Type="varchar" MaxLength="2" />
+    <Property Name="DS" Type="varchar" MaxLength="3" />
+    <Property Name="Dial" Type="varchar" MaxLength="17" />
+    <Property Name="FIFA" Type="varchar" MaxLength="15" />
+    <Property Name="FIPS" Type="varchar" MaxLength="26" />
+    <Property Name="GAUL" Type="varchar" MaxLength="6" />
+    <Property Name="IOC" Type="varchar" MaxLength="3" />
+    <Property Name="currency_alphabetic_code" Type="varchar" MaxLength="3" />
+    <Property Name="currency_country_name" Type="varchar" MaxLength="44" />
+    <Property Name="currency_minor_unit" Type="varchar" MaxLength="1" />
+    <Property Name="currency_name" Type="varchar" MaxLength="29" />
+    <Property Name="currency_numeric_code" Type="varchar" MaxLength="3" />
+    <Property Name="is_independent" Type="varchar" MaxLength="22" />
+  </EntityType>
+  <EntityType Name="Coupon">
+    <Key>
+      <PropertyRef Name="couponId" />
+    </Key>
+    <Property Name="couponId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="number" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="amount" Type="float" Nullable="false" />
+    <Property Name="currency" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="dtStart" Type="datetime" />
+    <Property Name="dtEnd" Type="datetime" Nullable="false" />
+    <Property Name="orderId" Type="bigint" />
+    <Property Name="passengerId" Type="bigint" />
+    <Property Name="passengerIdSMS" Type="bigint" />
+  </EntityType>
+  <EntityType Name="CreditCards">
+    <Key>
+      <PropertyRef Name="CardId" />
+    </Key>
+    <Property Name="CardId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="bigint" Nullable="false" />
+    <Property Name="LastFourDigits" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="ExpMonth" Type="int" Nullable="false" />
+    <Property Name="ExpYear" Type="int" Nullable="false" />
+    <Property Name="CVV" Type="varchar" MaxLength="4" Nullable="false" />
+    <Property Name="CardHolderName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="CardHolderId" Type="varchar" MaxLength="50" />
+    <Property Name="IsDefaultCard" Type="bit" Nullable="false" />
+    <Property Name="Token" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CreditCardUser">
+    <Key>
+      <PropertyRef Name="creditCardUser" />
+    </Key>
+    <Property Name="creditCardUser" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userId" Type="bigint" />
+    <Property Name="tokenId" Type="nvarchar" MaxLength="100" />
+    <Property Name="cvv" Type="nvarchar" MaxLength="100" />
+    <Property Name="expdate" Type="nvarchar" MaxLength="100" />
+    <Property Name="isDefault" Type="bit" />
+  </EntityType>
+  <EntityType Name="DriverRegion">
+    <Key>
+      <PropertyRef Name="driverRegionId" />
+    </Key>
+    <Property Name="driverRegionId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="regionId" Type="int" />
+    <Property Name="driverId" Type="bigint" />
+  </EntityType>
+  <EntityType Name="Drivers">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="bigint" Nullable="false" />
+    <Property Name="LicensePlate" Type="nvarchar" MaxLength="50" />
+    <Property Name="Location" Type="geography" />
+    <Property Name="LastUpdateLocation" Type="datetime" />
+    <Property Name="CarType" Type="int" />
+    <Property Name="TaxiLicense" Type="nvarchar" MaxLength="50" />
+    <Property Name="PaymentStatus" Type="int" />
+    <Property Name="WantFutureRide" Type="bit" Nullable="false" />
+    <Property Name="Status" Type="int" />
+    <Property Name="TaxiStationId" Type="int" />
+    <Property Name="AcceptsCC" Type="bit" />
+    <Property Name="ChargeCCId" Type="int" />
+    <Property Name="BankNumber" Type="int" />
+    <Property Name="BankBranch" Type="int" />
+    <Property Name="BankAccount" Type="nvarchar" MaxLength="50" />
+    <Property Name="BankHolderName" Type="nvarchar" MaxLength="50" />
+    <Property Name="IdentityCardNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="CCProviderNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="PayPalId" Type="nvarchar" MaxLength="100" />
+    <Property Name="paymentMethod" Type="int" />
+    <Property Name="driverCode" Type="nvarchar" MaxLength="50" />
+    <Property Name="payment" Type="int" />
+    <Property Name="seats" Type="int" />
+    <Property Name="UpdateLocationStatus" Type="int" />
+    <Property Name="isHandicapped" Type="bit" />
+    <Property Name="isPrivate" Type="bit" />
+    <Property Name="courier" Type="int" />
+    <Property Name="companyNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="tz" Type="nvarchar" MaxLength="15" />
+    <Property Name="studentCard" Type="nvarchar" MaxLength="50" />
+    <Property Name="authorizedDealer" Type="nvarchar" MaxLength="50" />
+    <Property Name="productionYear" Type="int" />
+    <Property Name="isBlocked" Type="bit" />
+    <Property Name="dateEndBlock" Type="datetime" />
+    <Property Name="heading" Type="float" />
+  </EntityType>
+  <EntityType Name="FavoriteAddresses">
+    <Key>
+      <PropertyRef Name="PassengerId" />
+      <PropertyRef Name="FavoriteIndex" />
+    </Key>
+    <Property Name="PassengerId" Type="bigint" Nullable="false" />
+    <Property Name="PickUpLocation" Type="geography" Nullable="false" />
+    <Property Name="DestinationLocation" Type="geography" />
+    <Property Name="PickUpAddress" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="DestinationAddress" Type="nvarchar" MaxLength="250" />
+    <Property Name="FavoriteIndex" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CreationDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="FavoriteDrivers">
+    <Key>
+      <PropertyRef Name="PassengerId" />
+      <PropertyRef Name="DriverId" />
+    </Key>
+    <Property Name="PassengerId" Type="bigint" Nullable="false" />
+    <Property Name="DriverId" Type="bigint" Nullable="false" />
+    <Property Name="Notes" Type="nvarchar" MaxLength="500" />
+    <Property Name="CreationDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Images">
+    <Key>
+      <PropertyRef Name="ImageId" />
+    </Key>
+    <Property Name="ImageId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Extension" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ISR_TaxiStations">
+    <Key>
+      <PropertyRef Name="StationId" />
+      <PropertyRef Name="DriverCode" />
+    </Key>
+    <Property Name="StationId" Type="int" Nullable="false" />
+    <Property Name="StationName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="DriverCode" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Languages">
+    <Key>
+      <PropertyRef Name="LanguageId" />
+    </Key>
+    <Property Name="LanguageId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LanguageName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LanguageCulture" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="LocationForRegion">
+    <Key>
+      <PropertyRef Name="locationId" />
+    </Key>
+    <Property Name="locationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="location" Type="geography" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Messages">
+    <Key>
+      <PropertyRef Name="MessageId" />
+    </Key>
+    <Property Name="MessageId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Subject" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="MessageContent" Type="nvarchar" MaxLength="4000" Nullable="false" />
+    <Property Name="UserId" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="OrderId" />
+    </Key>
+    <Property Name="OrderId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PickUpLocation" Type="geography" Nullable="false" />
+    <Property Name="DestinationLocation" Type="geography" />
+    <Property Name="PickUpAddress" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="DestinationAddress" Type="nvarchar" MaxLength="250" />
+    <Property Name="Notes" Type="nvarchar(max)" />
+    <Property Name="OrderTime" Type="datetime" />
+    <Property Name="PassengerId" Type="bigint" Nullable="false" />
+    <Property Name="DriverId" Type="bigint" />
+    <Property Name="StatusId" Type="int" Nullable="false" />
+    <Property Name="CreationDate" Type="datetime" Nullable="false" />
+    <Property Name="FlowStep" Type="int" />
+    <Property Name="LastUpdateFlowStep" Type="datetime" />
+    <Property Name="EndTime" Type="datetime" />
+    <Property Name="PaymentMethod" Type="int" />
+    <Property Name="Amount" Type="float" />
+    <Property Name="Currency" Type="nvarchar" MaxLength="250" />
+    <Property Name="Rating" Type="int" />
+    <Property Name="isInterCity" Type="bit" />
+    <Property Name="destinationCityName" Type="nvarchar" MaxLength="50" />
+    <Property Name="pickUpCityName" Type="nvarchar" MaxLength="50" />
+    <Property Name="transactionId" Type="nvarchar(max)" />
+    <Property Name="FileNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="isFromWeb" Type="bit" />
+    <Property Name="tip" Type="int" />
+    <Property Name="businessId" Type="int" />
+    <Property Name="isWithDiscount" Type="bit" />
+    <Property Name="seats" Type="int" />
+    <Property Name="isHandicapped" Type="bit" />
+    <Property Name="courier" Type="int" />
+    <Property Name="priceForInterCity" Type="float" />
+    <Property Name="AccountId" Type="bigint" />
+    <Property Name="isReadTheOrder" Type="bit" />
+    <Property Name="isReadTheOrderForDriver" Type="bit" />
+    <Property Name="isVirtual" Type="bit" />
+    <Property Name="errorId" Type="int" />
+    <Property Name="orderCount" Type="int" />
+    <Property Name="isFromStations" Type="bit" />
+    <Property Name="PreferedStationId" Type="int" />
+    <Property Name="isOfflineOrder" Type="bit" />
+    <Property Name="isPayedForDriver" Type="bit" />
+    <Property Name="NotesForAdmin" Type="nvarchar" MaxLength="300" />
+    <Property Name="isInterCityForPayment" Type="bit" />
+    <Property Name="isIVROrder" Type="bit" />
+  </EntityType>
+  <EntityType Name="Orders_Drivers">
+    <Key>
+      <PropertyRef Name="OrderId" />
+      <PropertyRef Name="DriverId" />
+    </Key>
+    <Property Name="OrderId" Type="bigint" Nullable="false" />
+    <Property Name="DriverId" Type="bigint" Nullable="false" />
+    <Property Name="StatusId" Type="int" Nullable="false" />
+    <Property Name="Priority" Type="int" Nullable="false" />
+    <Property Name="isReadTheOrderForDriver" Type="bit" />
+  </EntityType>
+  <EntityType Name="Passengers">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PendingUsers">
+    <Key>
+      <PropertyRef Name="PendingUserId" />
+    </Key>
+    <Property Name="PendingUserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodeValidation" Type="nvarchar" MaxLength="4" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="RegistrationDate" Type="datetime" Nullable="false" />
+    <Property Name="CodeSent" Type="bit" Nullable="false" />
+    <Property Name="CodeExpiration" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PhoneDriversApproved">
+    <Key>
+      <PropertyRef Name="phone" />
+    </Key>
+    <Property Name="phone" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PriceBetweenCities">
+    <Key>
+      <PropertyRef Name="PriceBetweenCitiesID" />
+    </Key>
+    <Property Name="PriceBetweenCitiesID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cities" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="PriceOnDay" Type="int" Nullable="false" />
+    <Property Name="PriceOnNight" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PriceForInterCityNewUpdate">
+    <Key>
+      <PropertyRef Name="rowId" />
+    </Key>
+    <Property Name="rowId" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="pickUpCity" Type="nvarchar" MaxLength="100" />
+    <Property Name="destinationCity" Type="nvarchar" MaxLength="100" />
+    <Property Name="price1" Type="float" />
+    <Property Name="price2" Type="float" />
+  </EntityType>
+  <EntityType Name="priceForInterCity-update">
+    <Key>
+      <PropertyRef Name="rowId" />
+    </Key>
+    <Property Name="rowId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="pickUpCity" Type="nvarchar" MaxLength="100" />
+    <Property Name="destinationCity" Type="nvarchar" MaxLength="100" />
+    <Property Name="price1" Type="float" />
+    <Property Name="price2" Type="float" />
+  </EntityType>
+  <EntityType Name="Region">
+    <Key>
+      <PropertyRef Name="regionId" />
+    </Key>
+    <Property Name="regionId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="taxiStationId" Type="int" />
+  </EntityType>
+  <EntityType Name="RegionLocation">
+    <Key>
+      <PropertyRef Name="regionId" />
+      <PropertyRef Name="locationId" />
+    </Key>
+    <Property Name="regionId" Type="int" Nullable="false" />
+    <Property Name="locationId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="rider_users$">
+    <Key>
+      <PropertyRef Name="phone" />
+    </Key>
+    <Property Name="phone" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SupportedCountries">
+    <Key>
+      <PropertyRef Name="ISOcode" />
+    </Key>
+    <Property Name="ISOcode" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="IsSupported" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="SystemSettings">
+    <Key>
+      <PropertyRef Name="ParamKey" />
+    </Key>
+    <Property Name="ParamKey" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ParamValue" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TaxiStations">
+    <Key>
+      <PropertyRef Name="StationId" />
+    </Key>
+    <Property Name="StationId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HebrewName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="EnglishName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="StationOperator" Type="nvarchar" MaxLength="100" />
+    <Property Name="IsoCountry" Type="varchar" MaxLength="2" />
+    <Property Name="Region" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RegistrationDate" Type="datetime" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="DeviceId" Type="nvarchar" MaxLength="100" />
+    <Property Name="DriverNotificationToken" Type="nvarchar" MaxLength="200" />
+    <Property Name="PlatformId" Type="int" />
+    <Property Name="VersionOS" Type="nvarchar" MaxLength="50" />
+    <Property Name="AuthenticationToken" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="AppVersion" Type="nvarchar" MaxLength="50" />
+    <Property Name="ImageId" Type="uniqueidentifier" />
+    <Property Name="LanguageId" Type="int" Nullable="false" />
+    <Property Name="AlwaysApproveSum" Type="bit" />
+    <Property Name="IsDebug" Type="bit" />
+    <Property Name="PreferredPaymentMethod" Type="int" />
+    <Property Name="DriverValidNotificationToken" Type="bit" Nullable="false" />
+    <Property Name="PreferedStationId" Type="int" />
+    <Property Name="PayPalId" Type="nvarchar" MaxLength="100" />
+    <Property Name="PassengerNotificationToken" Type="nvarchar" MaxLength="200" />
+    <Property Name="PassengerValidNotificationToken" Type="bit" Nullable="false" />
+    <Property Name="isFromWeb" Type="bit" />
+    <Property Name="locationHome" Type="geography" />
+    <Property Name="homeAddress" Type="nvarchar" MaxLength="100" />
+    <Property Name="homeCity" Type="nvarchar" MaxLength="50" />
+    <Property Name="locationBusiness" Type="geography" />
+    <Property Name="businessAddress" Type="nvarchar" MaxLength="100" />
+    <Property Name="businessCity" Type="nvarchar" MaxLength="50" />
+    <Property Name="BusinessId" Type="int" />
+    <Property Name="isHandicapped" Type="bit" />
+    <Property Name="isVirtual" Type="bit" />
+    <Property Name="isFromStations" Type="bit" />
+    <Property Name="isReadTermsOfUse" Type="bit" />
+    <Property Name="lastSendNotificationForUpdate" Type="datetime" />
+    <Property Name="isFromIVR" Type="bit" />
+  </EntityType>
+  <EntityType Name="Versions">
+    <Key>
+      <PropertyRef Name="Version" />
+    </Key>
+    <Property Name="Version" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Account_Business">
+    <End Role="Businesses" Type="Self.Businesses" Multiplicity="1" />
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Businesses">
+        <PropertyRef Name="BusinessId" />
+      </Principal>
+      <Dependent Role="Accounts">
+        <PropertyRef Name="BusinessId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BusinessApprovedPhones_Businesses">
+    <End Role="Businesses" Type="Self.Businesses" Multiplicity="1" />
+    <End Role="BusinessApprovedPhones" Type="Self.BusinessApprovedPhones" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Businesses">
+        <PropertyRef Name="BusinessId" />
+      </Principal>
+      <Dependent Role="BusinessApprovedPhones">
+        <PropertyRef Name="BusinessId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Businesses_TaxiStations">
+    <End Role="TaxiStations" Type="Self.TaxiStations" Multiplicity="0..1" />
+    <End Role="Businesses" Type="Self.Businesses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaxiStations">
+        <PropertyRef Name="StationId" />
+      </Principal>
+      <Dependent Role="Businesses">
+        <PropertyRef Name="taxiStationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Coupons_Orders">
+    <End Role="Orders" Type="Self.Orders" Multiplicity="0..1" />
+    <End Role="Coupon" Type="Self.Coupon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="OrderId" />
+      </Principal>
+      <Dependent Role="Coupon">
+        <PropertyRef Name="orderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Coupons_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Coupon" Type="Self.Coupon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Coupon">
+        <PropertyRef Name="passengerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Coupons_Users_SMS">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Coupon" Type="Self.Coupon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Coupon">
+        <PropertyRef Name="passengerIdSMS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CreditCards_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="CreditCards" Type="Self.CreditCards" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="CreditCards">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CreditCardUser_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="CreditCardUser" Type="Self.CreditCardUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="CreditCardUser">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Driver_User">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Drivers" Type="Self.Drivers" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Drivers">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DriverRegion_Drivers">
+    <End Role="Drivers" Type="Self.Drivers" Multiplicity="0..1" />
+    <End Role="DriverRegion" Type="Self.DriverRegion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Drivers">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="DriverRegion">
+        <PropertyRef Name="driverId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DriverRegion_Region">
+    <End Role="Region" Type="Self.Region" Multiplicity="0..1" />
+    <End Role="DriverRegion" Type="Self.DriverRegion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Region">
+        <PropertyRef Name="regionId" />
+      </Principal>
+      <Dependent Role="DriverRegion">
+        <PropertyRef Name="regionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Drivers_Banks">
+    <End Role="Banks" Type="Self.Banks" Multiplicity="0..1" />
+    <End Role="Drivers" Type="Self.Drivers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Banks">
+        <PropertyRef Name="bankId" />
+      </Principal>
+      <Dependent Role="Drivers">
+        <PropertyRef Name="BankNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Drivers_CarTypes">
+    <End Role="CarTypes" Type="Self.CarTypes" Multiplicity="0..1" />
+    <End Role="Drivers" Type="Self.Drivers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CarTypes">
+        <PropertyRef Name="CarTypeId" />
+      </Principal>
+      <Dependent Role="Drivers">
+        <PropertyRef Name="CarType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Drivers_CreditCards">
+    <End Role="CreditCards" Type="Self.CreditCards" Multiplicity="0..1" />
+    <End Role="Drivers" Type="Self.Drivers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CreditCards">
+        <PropertyRef Name="CardId" />
+      </Principal>
+      <Dependent Role="Drivers">
+        <PropertyRef Name="ChargeCCId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Drivers_TaxiStations">
+    <End Role="TaxiStations" Type="Self.TaxiStations" Multiplicity="0..1" />
+    <End Role="Drivers" Type="Self.Drivers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaxiStations">
+        <PropertyRef Name="StationId" />
+      </Principal>
+      <Dependent Role="Drivers">
+        <PropertyRef Name="TaxiStationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FavoriteAddresses_Passenger">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="FavoriteAddresses" Type="Self.FavoriteAddresses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="FavoriteAddresses">
+        <PropertyRef Name="PassengerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FavoriteDrivers_Driver">
+    <End Role="Drivers" Type="Self.Drivers" Multiplicity="1" />
+    <End Role="FavoriteDrivers" Type="Self.FavoriteDrivers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Drivers">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="FavoriteDrivers">
+        <PropertyRef Name="DriverId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FavoriteDrivers_Passenger">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="FavoriteDrivers" Type="Self.FavoriteDrivers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="FavoriteDrivers">
+        <PropertyRef Name="PassengerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LocationForRegion_RegionLocation">
+    <End Role="LocationForRegion" Type="Self.LocationForRegion" Multiplicity="1" />
+    <End Role="RegionLocation" Type="Self.RegionLocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LocationForRegion">
+        <PropertyRef Name="locationId" />
+      </Principal>
+      <Dependent Role="RegionLocation">
+        <PropertyRef Name="locationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Messages_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Messages" Type="Self.Messages" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Messages">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Account">
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Accounts">
+        <PropertyRef Name="AccountId" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="AccountId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_business">
+    <End Role="Businesses" Type="Self.Businesses" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Businesses">
+        <PropertyRef Name="BusinessId" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="businessId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Driver">
+    <End Role="Drivers" Type="Self.Drivers" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Drivers">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="DriverId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Drivers_Driver">
+    <End Role="Drivers" Type="Self.Drivers" Multiplicity="1" />
+    <End Role="Orders_Drivers" Type="Self.Orders_Drivers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Drivers">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Orders_Drivers">
+        <PropertyRef Name="DriverId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Drivers_Orders">
+    <End Role="Orders" Type="Self.Orders" Multiplicity="1" />
+    <End Role="Orders_Drivers" Type="Self.Orders_Drivers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="OrderId" />
+      </Principal>
+      <Dependent Role="Orders_Drivers">
+        <PropertyRef Name="OrderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Passenger">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="PassengerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_TaxiStations">
+    <End Role="TaxiStations" Type="Self.TaxiStations" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaxiStations">
+        <PropertyRef Name="StationId" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="PreferedStationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Passenger_User">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Passengers" Type="Self.Passengers" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Passengers">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Region_RegionLocation">
+    <End Role="Region" Type="Self.Region" Multiplicity="1" />
+    <End Role="RegionLocation" Type="Self.RegionLocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Region">
+        <PropertyRef Name="regionId" />
+      </Principal>
+      <Dependent Role="RegionLocation">
+        <PropertyRef Name="regionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Region_TaxiStations">
+    <End Role="TaxiStations" Type="Self.TaxiStations" Multiplicity="0..1" />
+    <End Role="Region" Type="Self.Region" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaxiStations">
+        <PropertyRef Name="StationId" />
+      </Principal>
+      <Dependent Role="Region">
+        <PropertyRef Name="taxiStationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StationId">
+    <End Role="TaxiStations" Type="Self.TaxiStations" Multiplicity="1" />
+    <End Role="ISR_TaxiStations" Type="Self.ISR_TaxiStations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaxiStations">
+        <PropertyRef Name="StationId" />
+      </Principal>
+      <Dependent Role="ISR_TaxiStations">
+        <PropertyRef Name="StationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Business">
+    <End Role="Businesses" Type="Self.Businesses" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Businesses">
+        <PropertyRef Name="BusinessId" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="BusinessId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Images">
+    <End Role="Images" Type="Self.Images" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Images">
+        <PropertyRef Name="ImageId" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="ImageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Languages">
+    <End Role="Languages" Type="Self.Languages" Multiplicity="1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Languages">
+        <PropertyRef Name="LanguageId" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="LanguageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_TaxiStations">
+    <End Role="TaxiStations" Type="Self.TaxiStations" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaxiStations">
+        <PropertyRef Name="StationId" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="PreferedStationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="mysp_deleteUser" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="userId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="BallyTaxiModelStoreContainer">
+    <EntitySet Name="Accounts" EntityType="Self.Accounts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AccountsForAdmin" EntityType="Self.AccountsForAdmin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Banks" EntityType="Self.Banks" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BusinessApprovedPhones" EntityType="Self.BusinessApprovedPhones" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Businesses" EntityType="Self.Businesses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CarTypes" EntityType="Self.CarTypes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CountryCodes" EntityType="Self.CountryCodes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Coupon" EntityType="Self.Coupon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CreditCards" EntityType="Self.CreditCards" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CreditCardUser" EntityType="Self.CreditCardUser" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DriverRegion" EntityType="Self.DriverRegion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Drivers" EntityType="Self.Drivers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FavoriteAddresses" EntityType="Self.FavoriteAddresses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FavoriteDrivers" EntityType="Self.FavoriteDrivers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Images" EntityType="Self.Images" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ISR_TaxiStations" EntityType="Self.ISR_TaxiStations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Languages" EntityType="Self.Languages" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LocationForRegion" EntityType="Self.LocationForRegion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Messages" EntityType="Self.Messages" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Orders_Drivers" EntityType="Self.Orders_Drivers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Passengers" EntityType="Self.Passengers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PendingUsers" EntityType="Self.PendingUsers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PhoneDriversApproved" EntityType="Self.PhoneDriversApproved" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PriceBetweenCities" EntityType="Self.PriceBetweenCities" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PriceForInterCityNewUpdate" EntityType="Self.PriceForInterCityNewUpdate" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="priceForInterCity-update" EntityType="Self.priceForInterCity-update" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Region" EntityType="Self.Region" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RegionLocation" EntityType="Self.RegionLocation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="rider_users$" EntityType="Self.rider_users$" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SupportedCountries" EntityType="Self.SupportedCountries" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SystemSettings" EntityType="Self.SystemSettings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TaxiStations" EntityType="Self.TaxiStations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Versions" EntityType="Self.Versions" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Account_Business" Association="Self.FK_Account_Business">
+      <End Role="Businesses" EntitySet="Businesses" />
+      <End Role="Accounts" EntitySet="Accounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BusinessApprovedPhones_Businesses" Association="Self.FK_BusinessApprovedPhones_Businesses">
+      <End Role="Businesses" EntitySet="Businesses" />
+      <End Role="BusinessApprovedPhones" EntitySet="BusinessApprovedPhones" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Businesses_TaxiStations" Association="Self.FK_Businesses_TaxiStations">
+      <End Role="TaxiStations" EntitySet="TaxiStations" />
+      <End Role="Businesses" EntitySet="Businesses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Coupons_Orders" Association="Self.FK_Coupons_Orders">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="Coupon" EntitySet="Coupon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Coupons_Users" Association="Self.FK_Coupons_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Coupon" EntitySet="Coupon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Coupons_Users_SMS" Association="Self.FK_Coupons_Users_SMS">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Coupon" EntitySet="Coupon" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CreditCards_Users" Association="Self.FK_CreditCards_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="CreditCards" EntitySet="CreditCards" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CreditCardUser_Users" Association="Self.FK_CreditCardUser_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="CreditCardUser" EntitySet="CreditCardUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Driver_User" Association="Self.FK_Driver_User">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Drivers" EntitySet="Drivers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DriverRegion_Drivers" Association="Self.FK_DriverRegion_Drivers">
+      <End Role="Drivers" EntitySet="Drivers" />
+      <End Role="DriverRegion" EntitySet="DriverRegion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DriverRegion_Region" Association="Self.FK_DriverRegion_Region">
+      <End Role="Region" EntitySet="Region" />
+      <End Role="DriverRegion" EntitySet="DriverRegion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Drivers_Banks" Association="Self.FK_Drivers_Banks">
+      <End Role="Banks" EntitySet="Banks" />
+      <End Role="Drivers" EntitySet="Drivers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Drivers_CarTypes" Association="Self.FK_Drivers_CarTypes">
+      <End Role="CarTypes" EntitySet="CarTypes" />
+      <End Role="Drivers" EntitySet="Drivers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Drivers_CreditCards" Association="Self.FK_Drivers_CreditCards">
+      <End Role="CreditCards" EntitySet="CreditCards" />
+      <End Role="Drivers" EntitySet="Drivers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Drivers_TaxiStations" Association="Self.FK_Drivers_TaxiStations">
+      <End Role="TaxiStations" EntitySet="TaxiStations" />
+      <End Role="Drivers" EntitySet="Drivers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FavoriteAddresses_Passenger" Association="Self.FK_FavoriteAddresses_Passenger">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="FavoriteAddresses" EntitySet="FavoriteAddresses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FavoriteDrivers_Driver" Association="Self.FK_FavoriteDrivers_Driver">
+      <End Role="Drivers" EntitySet="Drivers" />
+      <End Role="FavoriteDrivers" EntitySet="FavoriteDrivers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FavoriteDrivers_Passenger" Association="Self.FK_FavoriteDrivers_Passenger">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="FavoriteDrivers" EntitySet="FavoriteDrivers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LocationForRegion_RegionLocation" Association="Self.FK_LocationForRegion_RegionLocation">
+      <End Role="LocationForRegion" EntitySet="LocationForRegion" />
+      <End Role="RegionLocation" EntitySet="RegionLocation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Messages_Users" Association="Self.FK_Messages_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Messages" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Account" Association="Self.FK_Orders_Account">
+      <End Role="Accounts" EntitySet="Accounts" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_business" Association="Self.FK_Orders_business">
+      <End Role="Businesses" EntitySet="Businesses" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Driver" Association="Self.FK_Orders_Driver">
+      <End Role="Drivers" EntitySet="Drivers" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Drivers_Driver" Association="Self.FK_Orders_Drivers_Driver">
+      <End Role="Drivers" EntitySet="Drivers" />
+      <End Role="Orders_Drivers" EntitySet="Orders_Drivers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Drivers_Orders" Association="Self.FK_Orders_Drivers_Orders">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="Orders_Drivers" EntitySet="Orders_Drivers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Passenger" Association="Self.FK_Orders_Passenger">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_TaxiStations" Association="Self.FK_Orders_TaxiStations">
+      <End Role="TaxiStations" EntitySet="TaxiStations" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Passenger_User" Association="Self.FK_Passenger_User">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Passengers" EntitySet="Passengers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Region_RegionLocation" Association="Self.FK_Region_RegionLocation">
+      <End Role="Region" EntitySet="Region" />
+      <End Role="RegionLocation" EntitySet="RegionLocation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Region_TaxiStations" Association="Self.FK_Region_TaxiStations">
+      <End Role="TaxiStations" EntitySet="TaxiStations" />
+      <End Role="Region" EntitySet="Region" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StationId" Association="Self.FK_StationId">
+      <End Role="TaxiStations" EntitySet="TaxiStations" />
+      <End Role="ISR_TaxiStations" EntitySet="ISR_TaxiStations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Business" Association="Self.FK_User_Business">
+      <End Role="Businesses" EntitySet="Businesses" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Images" Association="Self.FK_User_Images">
+      <End Role="Images" EntitySet="Images" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Languages" Association="Self.FK_User_Languages">
+      <End Role="Languages" EntitySet="Languages" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_TaxiStations" Association="Self.FK_User_TaxiStations">
+      <End Role="TaxiStations" EntitySet="TaxiStations" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

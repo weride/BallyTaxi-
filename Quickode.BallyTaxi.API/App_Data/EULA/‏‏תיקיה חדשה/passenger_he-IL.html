@@ -1,0 +1,1513 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>passenger ELUA</title>
+
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:David;
+	panose-1:2 14 5 2 6 4 1 1 1 1;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	line-height:18.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+h4
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+h5
+	{margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	text-align:justify;
+	line-height:18.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:13.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;
+	font-style:italic;}
+h6
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:7.5pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	line-height:18.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	line-height:18.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	line-height:18.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.MsoFootnoteReference
+	{vertical-align:super;}
+p.MsoSignature, li.MsoSignature, div.MsoSignature
+	{margin-top:0in;
+	margin-right:56.7pt;
+	margin-bottom:0in;
+	margin-left:269.35pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#954F72;
+	text-decoration:underline;}
+p
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	text-align:right;
+	line-height:115%;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:right;
+	line-height:115%;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:right;
+	line-height:115%;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	text-align:right;
+	line-height:115%;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{margin-top:0in;
+	margin-right:28.35pt;
+	margin-bottom:15.0pt;
+	margin-left:0in;
+	text-align:justify;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.Normal1, li.Normal1, div.Normal1
+	{mso-style-name:"Normal 1";
+	margin-top:0in;
+	margin-right:25.5pt;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	line-height:18.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.Normal2, li.Normal2, div.Normal2
+	{mso-style-name:"Normal 2";
+	margin-top:0in;
+	margin-right:59.55pt;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	line-height:18.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.Normal3, li.Normal3, div.Normal3
+	{mso-style-name:"Normal 3";
+	margin-top:0in;
+	margin-right:100.65pt;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	line-height:18.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.Normal4, li.Normal4, div.Normal4
+	{mso-style-name:"Normal 4";
+	margin-top:0in;
+	margin-right:151.1pt;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	line-height:18.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.Quote1, li.Quote1, div.Quote1
+	{mso-style-name:Quote1;
+	margin-top:0in;
+	margin-right:56.7pt;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	line-height:12.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.Quote2, li.Quote2, div.Quote2
+	{mso-style-name:Quote2;
+	margin-top:0in;
+	margin-right:92.15pt;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	line-height:12.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.Quote3, li.Quote3, div.Quote3
+	{mso-style-name:Quote3;
+	margin-top:0in;
+	margin-right:134.65pt;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	line-height:12.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.Quote4, li.Quote4, div.Quote4
+	{mso-style-name:Quote4;
+	margin-top:0in;
+	margin-right:184.3pt;
+	margin-bottom:6.0pt;
+	margin-left:28.35pt;
+	text-align:justify;
+	line-height:12.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.a, li.a, div.a
+	{mso-style-name:אישור;
+	margin-top:0in;
+	margin-right:141.75pt;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.a0, li.a0, div.a0
+	{mso-style-name:טא;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:9.0pt;
+	margin-left:0in;
+	text-align:justify;
+	line-height:18.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.1, li.1, div.1
+	{mso-style-name:ממסופר1;
+	margin-top:0in;
+	margin-right:25.5pt;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	text-indent:-17.0pt;
+	line-height:18.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.3, li.3, div.3
+	{mso-style-name:ממוספר3;
+	margin-top:0in;
+	margin-right:100.65pt;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	text-indent:-17.0pt;
+	line-height:18.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.4, li.4, div.4
+	{mso-style-name:ממוספר4;
+	margin-top:0in;
+	margin-right:150.25pt;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	text-indent:-17.0pt;
+	line-height:18.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.2, li.2, div.2
+	{mso-style-name:ממסופר2;
+	margin-top:0in;
+	margin-right:59.55pt;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	text-indent:-17.0pt;
+	line-height:18.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.a1, li.a1, div.a1
+	{mso-style-name:הואיל;
+	margin-top:0in;
+	margin-right:42.55pt;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	text-indent:-42.55pt;
+	line-height:18.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.a2, li.a2, div.a2
+	{mso-style-name:והואיל;
+	margin-top:0in;
+	margin-right:42.55pt;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	text-indent:-42.55pt;
+	line-height:18.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.a3, li.a3, div.a3
+	{mso-style-name:"חתימה בימש";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.10, li.10, div.10
+	{mso-style-name:1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:justify;
+	line-height:18.0pt;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.apple-converted-space
+	{mso-style-name:apple-converted-space;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:1.0in 79.4pt 1.0in 79.4pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink="#954F72">
+
+<div class=WordSection1 dir=RTL>
+
+<p class=MsoNormal dir=LTR style='text-align:justify;line-height:normal;
+direction:ltr;unicode-bidi:embed'><b><u><span style='font-family:"Tahoma","sans-serif";
+color:black'><span style='text-decoration:none'>&nbsp;</span></span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster;
+line-height:normal'><span lang=HE style='font-family:"Tahoma","sans-serif"'>ברוכים
+הבאים לאפליקציית באלי טקסי, הפלטפורמה שתקשר ביניכם לבין נהגי מוניות עצמאיים
+שנמצאים בקרבתכם.</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster;
+line-height:normal'><span lang=HE style='font-family:"Tahoma","sans-serif"'>תנאי
+שימוש אלו נוסחו בלשון רבים, על מנת לעקוף את מגבלות השפה העברית, אולם הם
+מתייחסים במישרין לכל אחת ואחד מכם ומכן ויחולו כהסכם ביניכם לבין האפליקציה.</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster;
+line-height:normal'><b><span lang=HE style='font-family:"Tahoma","sans-serif"'>תנאי
+שימוש אלו יחולו על כל שימוש מכל סוג שהוא ועל כל גישה לאפליקציית &quot;באלי
+טקסי&quot;,</span></b><span lang=HE style='font-family:"Tahoma","sans-serif"'>
+בכל מדיה בה תופיע, לרבות במדיה סלולארית, אינטרנטית (כאפליקציה אינטרנט או בדרך
+אחרת) או כל דרך או מדיה אחרים.</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster;
+line-height:normal'><span lang=HE style='font-family:"Tahoma","sans-serif"'>במסמך
+זה, &quot;האפליקציה&quot; משמעה אפליקציית באלי טקסי, וכל אתר או יישומון או
+שירות אחר כלשהי שתפעיל, היא ובעליה (חברת </span><span dir=LTR style='font-family:
+"Tahoma","sans-serif"'>Maildi Investments Ltd</span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'><span dir=RTL></span> הרשומה
+בגיבלטר וכתובתה - </span><span dir=LTR></span><span dir=LTR style='font-family:
+"Tahoma","sans-serif"'><span dir=LTR></span>57/63 Line Wall Road St., Gibraltar 11300</span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'><span
+dir=RTL></span>), מפעיליה, עובדיהם, נציגיהם וכל מי מטעמם (להלן יחד ולחוד לפי
+העניין: &quot;<b>האפליקציה</b>&quot;).</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster;
+line-height:normal'><b><i><span lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה
+נועדה לשמש כפלטפורמה טכנולוגית המאפשרת פעילות ויצירת קשר ביניכם לבין בעלי עסקים
+שונים (דוגמת נהגים ועסקים אחרים), אך היא אינה מספקת בעצמה שירותי הסעה ו/או
+מוניות כלשהם והיא אינה מעורבת בדרך כלשהי בעיסקה שתתבצע לבסוף ביניכם לבין צדדים
+שלישיים כלשהם. אתם מצהירים כי אתם מבינים זאת ופוטרים את האפליקציה מכל אחריות
+כאמור מטה.</span></i></b></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>תוקף תנאי השימוש:</span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>1.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>הגישה
+והשימוש באפליקציה מוגבלים כמפורט מטה ולשימוש אישי בלבד.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>2.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=RTL></span><b><span lang=HE style='font-family:"Tahoma","sans-serif"'>גישה
+או שימוש באפליקציה כמוה כהסכמה לתנאים</span></b><span lang=HE style='font-family:
+"Tahoma","sans-serif"'>. בעצם הגישה או השימוש  לאפליקציה, בעיון בתכנים המופיעים
+בו, בשימוש בכלים הנמצאים בו, בהורדת קבצים המאוחסנים על ידו או על ידי מי
+מהגולשים או בשימוש בשירותים הנכללים בו, בין אם בצפייה או בפעולה אחרת כלשהי <b>אתם
+מקבלים על עצמכם ומסכימים לתנאים המפורטים כאן, <span style='background:yellow'>למדיניות
+השימוש</span> של האפליקציה [<span style='background:yellow'>קישור</span>] וליתר
+התנאים המפורטים בכל עמוד רלוונטי באפליקציה, לפי העניין</b> (יחד &quot;<b>התנאים</b>&quot;)
+והם יחולו כהסכם מחייב ביניכם לבין האפליקציה. </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>3.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=RTL></span><b><span lang=HE style='font-family:"Tahoma","sans-serif"'>התנאים
+עשויים להשתנות. חובה עליכם לבדוק</span></b><span lang=HE style='font-family:
+"Tahoma","sans-serif"'>. יתכן שבעתיד תנאים אלו ישתנו בדרך כלשהי והנוסח המחייב
+יהיה הנוסח הקיים באותו רגע. הודעה על שינוי התנאים תימסר בעמוד זה בתחתיתו, ובה
+ירשם התאריך האחרון בו שונו התנאים. אתם מתבקשים לבדוק מפעם לפעם את נוסח התנאים
+החלים באפליקציה כפי שהוא, שכן כל פעולה או גישה לאפליקציה לאחר אישור התנאים יחשב
+כהסכמתכם לתנאים החדשים. </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>4.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=RTL></span><b><span lang=HE style='font-family:"Tahoma","sans-serif"'>בכל
+שאלה – צרו קשר.</span></b><span lang=HE style='font-family:"Tahoma","sans-serif"'>
+בכל מקרה של שאלה ביחס לאפליקציה, לתנאים אלו או לכל עניין אחר, הינכם מוזמנים לפנות
+אלינו ולקבל הבהרה באמצעות ___________.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-bottom:0in;margin-bottom:.0001pt;
+text-align:justify;text-justify:inter-cluster;line-height:normal'><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>השירותים</span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>5.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=RTL></span><b><span lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה
+כפלטפורמה ליצירת קשר בלבד, ולא מעבר לכך.</span></b><span lang=HE
+style='font-family:"Tahoma","sans-serif"'> האפליקציה נועדה לשמש אתכם כפלטפורמה
+טכנולוגית המאפשרת לכם ליצור קשר עם נהגים ציבוריים (דוגמת נהגי מוניות) אשר
+מעוניינים לספק לכם את שירותי ההסעה, ההובלה או השליחות להם אתם נדרשים.  שירותים
+אלו מבוססים על נתונים סלולאריים ונתוני איכון גיאוגרפיים (</span><span dir=LTR
+style='font-family:"Tahoma","sans-serif"'>GPS</span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'><span dir=RTL></span>) אשר
+נמסרים על ידיכם ועל ידי מכשירכם לאפליקציה ואשר האפליקציה שואבת ממכשיריכם.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>6.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=RTL></span><b><span lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה
+אינה אחראית לנסיעות עצמן. </span></b><span lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה
+תספק לכם גישה ואמצעי קשר עם מספר נהגים בסביבתכם הגיאוגרפית. התקשרותכם עם כל נהג
+ספציפי נעשית במישרין, וללא התערבות או אחריות האפליקציה למי מרכיבי ההתקשרות.
+האפליקציה אינה צד להסכם ביניכם לבין מי מהנהגים או צדדים שלישיים אחרים כלשהם
+ואינה נוטלת אחריות כלשהי ביחס לכך.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>7.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=RTL></span><b><span lang=HE style='font-family:"Tahoma","sans-serif"'>שינוי
+או הפסקת השירותים – אפשרי.</span></b><span lang=HE style='font-family:"Tahoma","sans-serif"'>
+עם זאת, האפליקציה עשוייה מעת לעת להוסיף, לשנות או להחסיר שירותים, להרחיבם,
+לצמצמם, להפסיקם, לסרב לספקם או למנוע כניסה אליהם מכם ו/או מכל חלק או כלל יתר
+המשתמשים ולא תהיה לכם כל טענה באשר לכך.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>8.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=RTL></span><b><span lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה
+אינה מספקת שירותי הסעה ולא אחראית להם.</span></b><span lang=HE
+style='font-family:"Tahoma","sans-serif"'> מובהר לכם ואתם מאשרים בצורה שאינה
+משתמעת לשתי פנים שהאפליקציה בעצמה אינה מספקת שירותי הסעה, הובלה או שירותים
+תומכים אחרים כלשהם ואינה אחראית על כל אלו המתבצעים בעקבות הפעלתה.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>9.<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+dir=RTL></span><b><span lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה
+ללא תשלום. הנסיעות בתשלום לנהגים</span></b><span lang=HE style='font-family:
+"Tahoma","sans-serif"'>. גם ככל ששירותי האפליקציה יהיו בלא תשלום, הרי הנסיעות
+עצמן תהיינה כפופות לתשלום המוסכם עם הנהג הספציפי ולתעריפים הרלוונטיים. </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>10.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>היקף השירותים ותמחורם –
+עשויים להשתנות. </span></b><span lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה
+רשאית לקבוע בכל עת מה הם השירותים הפתוחים לקהל הרחב ומה לחברים בלבד, לשנותם,
+להפסיק את מי מהם (לכל המשתמשים, לחלק מהם או למשתמש בודד) או לשנות את אופן הגישה
+לכל שירות, בלא הודעה מוקדמת. האפליקציה אף רשאית בכל עת להפוך כל שירות חינמי
+לשירות בתשלום, ובלבד שלא תחוייבו בו אלא אם כן תעשו בו שימוש לאחר שנמסרה לכם
+הודעה מפורשת על שינוי זה ואישרתם אותה.</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><span
+lang=HE style='font-family:"Tahoma","sans-serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>הרשמה לאפליקציה וניהולה</span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>11.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אסור השימוש מתחת לגיל 18. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אין לעשות שימוש כלשהו באפליקציה
+אם לא מלאו לכם 18 שנים לפחות [<span style='background:yellow'>13? לבחירתכם</span>].
+בעצם השימוש אתם מצהירים כי הינכם לפחות בני 18 שנים, כי אתם מבינים את התנאים ואתם
+מסכימים להם. האפליקציה שומרת על זכותה שלא להעניק שירות כלשהו או לבטל את הרשמתו
+של כל משתמש שיתברר כי גילו נמוך מכך, ולא תהיה כל טענה או דרישה עקב כך.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>12.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>מסירת פרטים בהרשמה. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>במהלך ההרשמה לאפליקציה או
+לשירותים תתבקשו למסור פרטים (מזהים ושאינם מזהים) דוגמת מספר הטלפון הסלולארי
+שלכם, כתובתכם וכתובת דואר אלקטרוני פעילה לצורך התקשרות עימכם, לקבוע סיסמא וכן
+פרטים נוספים כנדרש מעת לעת. אי שמירה על עדכנותם של פרטים אלו עלולה לפגוע
+בשירותים אותם תקבלו מהאפליקציה ומהנהגים, ועל כן חשוב לשמור על עדכנותם.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>13.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>על הפרטים להיות מדויקים
+ונכונים. </span></b><span lang=HE style='font-family:"Tahoma","sans-serif"'>בעת
+ההרשמה ובעת השימוש באפליקציה הינכם נדרשים ואתם מתחייבים  כי תמסרו רק פרטים
+נכונים ומדויקים וכי אתם תעדכנו פרטים אלו ככל שהם ישתנו.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>14.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>החשבון – אישי בלבד. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>חל איסור לפתוח חשבון על שם או
+עבור מישהו אחר והחשבון חייב להיות שלכם בלבד. חל איסור לפתוח יותר מחשבון אחד
+לאדם אחד כמו גם לחלוק חשבונות בין מספר משתמשים.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>15.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>יש לשמור פרטי ההתחברות בסוד. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>האחריות על שמירת סיסמתכם בסוד
+או אבטחת מכשיר הטלפון שלכם וחשבונכם, הינה על אחריותכם בלבד. כל פעילות בחשבונכם
+תחשב כאילו אתם ביצעתם אותה, כך שכל תוצאותיה יחולו עליכם, גם אם תבוצע על ידי
+אחרים.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>16.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אתם אחראים למכשירכם ולחיובים.
+</span></b><span lang=HE style='font-family:"Tahoma","sans-serif"'>בעת ההרשמה
+אתם מתחייבים כי אתם בעליו של המכשיר הנייד עימו התחברתם לאפליקציה ואתם רשאים
+לקחת על עצמכם כל חיוב כלפי האפליקציה וכל צד לישי, דוגמת הנהגים, המפעילים
+הסלולאריים וכדומה.</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>דרך ההתנהגות באפליקציה ואופן
+פעילותה</span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>17.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>רישיון השימוש באפליקציה: </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>כפוף לעמידתכם המלאה בכל תנאי
+השימוש של האפליקציה, מעניקה לכם בזאת האפליקציה רישיון שימוש מוגבל, לא בלעדי,
+ללא אפשרות ליתן רישיונות משנה, ניתן לביטול, לא ניתן להעברה לגשת ולעשות שימוש
+פרטי ואישי בלבד באפליקציה על מכשירכם הנייד הפרטי, ביחס לשימוש האישי והפרטי שלכם
+בהסעות המבוקשות.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>18.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>איסור שימוש מסחרי. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה מעמידה עצמה לרשותכם
+ואתם נדרשים לעשות בה שימוש פרטי שאינו מסחרי. חל איסור לעשות שימוש מסחרי
+באפליקציה ו/או בנתונים שבה (דוגמת רשימת הנהגים), אלא אם אושר הדבר בהסכם נפרד עם
+האפליקציה.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>19.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>זהירות בפרנסתם של נהגים. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אנא שימו לב, שמרגע ששלחתם
+פניה באמצעות האפליקציה למציאת נהג פנוי באזורכם, יתכן שנהגים שייענו לקריאתכם לא
+ייענו לקריאות אחרות ועקב כך יפסידו פרנסה. אמנם, כל עוד לא אישר הנהג את נסיעתכם
+אתם רשאים לבטל את ההזמנה, אולם שימו לב כי גם בשלב כזה – ביטולים חוזרים ונשנים
+עלולים לפגוע בנהג ולגרום להגבלות על שימושכם באפליקציה או הרחקתכם ממנה.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>20.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>פעולות אסורות. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>חל איסור מוחלט לבצע מי
+מהפעולות הבאות באפליקציה, מבלי שיהיה בכך כדי לפגוע בכלליות האמור להלן ולעיל. כל
+אחת מפעילויות אלו עלולה לגרום לאפליקציה ו/או לאחרים נזק והמשתמש הפועל כך יהיה
+אחראי לתוצאות מעשיו:</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:31.5pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-.25in;line-height:normal'><span
+style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>הפעלת
+&quot;רובוט&quot; לסריקת האפליקציה, אחזור, כריית מידע ו/או יצירת אינדקס אחר מהמידע
+המצוי באפליקציה וכן כל שימוש בנתונים שהושגו מהאפליקציה; </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:31.5pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-.25in;line-height:normal'><span
+style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>הסרת
+סימני זכויות יוצרים, סימן מסחרי וכל הודעה קניינית אחרת מכל רכיב או חלק
+באפליקציה או בשירות;</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:31.5pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-.25in;line-height:normal'><span
+style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>קישור
+ו/או &quot;מסגור&quot; (</span><span dir=LTR style='font-family:"Tahoma","sans-serif"'>framing</span><span
+dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'><span
+dir=RTL></span>) של האפליקציה או כל רכיב הקשור בה או נמנה עליה בכל אמצעי אחר
+שאינו שייך לאפליקציה;</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:31.5pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-.25in;line-height:normal'><span
+style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>איסוף
+כל מידע שהוא על המשתמשים באפליקציה (לרבות פרטיהם האישיים, כתובת הדוא&quot;ל
+שלהם, מספרי הטלפון שלהם, נתוניהם הגיאוגרפיים וכו'); </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:31.5pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-.25in;line-height:normal'><span
+style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>הפרת
+כל זכות קניין רוחני (לרבות סימן מסחר או זכות יוצרים) של האפליקציה ושל כל צד
+שלישי; </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:31.5pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-.25in;line-height:normal'><span
+style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>העלאת
+או הצגת תוכן באפליקציה (וכן כל קישור לתוכן כזה) כשלצד שלישי זכויות בו ולא
+נתקבלה מראש הסכמתו של צד שלישי זה לפעולה; </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:31.5pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-.25in;line-height:normal'><span
+style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>כל
+שינוי, העתקה או יצירה נגזרת של חומר הנמצא באפליקציה או שייך לאפליקציה ושל כל
+עמוד באפליקציה, לרבות אך לא רק &quot;מיסגורו&quot; ביישום אחר, תיחומו באתר נפרד
+וכדומה; </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:31.5pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-.25in;line-height:normal'><span
+style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>כל
+שינוי או ניצול אחר של השירותים שבאפליקציה שלא באמצעים העומדים לרשותכם באופן
+סביר על ידי האפליקציה;</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:31.5pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-.25in;line-height:normal'><span
+style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>יצירת
+חשבונות אוטומטיים או חשבונות שאינם בבעלות אדם פרטי; </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:31.5pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-.25in;line-height:normal'><span
+style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>משלוח
+&quot;ספאם&quot; (דואר בלתי מוזמן, מסחרי או שאינו מסחרי) לחברים ומשתמשים
+באפליקציה, הן במסגרת האפליקציה והן מחוץ לו;</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:31.5pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-.25in;line-height:normal'><span
+style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>פגיעה
+בדרך כלשהי בהנאתם של המשתמשים והחברים באפליקציה;</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:31.5pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-.25in;line-height:normal'><span
+style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>חשיפת
+מידע אודות אחרים בלא קבלת הסכמתם לכך מראש וכל הפרת פרטיות של אחרים; פרסום או
+הצגת מידע שיש בו כדי להטעות או שהוא אינו אמת;</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:31.5pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-.25in;line-height:normal'><span
+style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>פרסום
+שאינו חוקי, שהוא פוגע, בוטה, מאיים, מיני, מעודד עבירות, מוציא לשון הרע, פוגע
+בפרטיות ומפר בדרך כלשהי את החוק;</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:31.5pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-.25in;line-height:normal'><span
+style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>כניסה
+לחשבון שאינו חשבון שלכם – אסורה;</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:31.5pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-.25in;line-height:normal'><span
+style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>העתקת,
+שינוי, התאמה, תרגום, דה-קומפילציה, &quot;הנדסה חוזרת&quot;, פירוק, הצגה פומבית,
+העמדה לרשות הציבור, מסחר או כל שימוש אחר שאינו מותר במפורש ביחס לאפליקציה, לקוד
+שלה, למידע שבה ו/או לשירותים המוצעים על ידה;</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>21.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>האחריות מול הנהג על כתפי
+המשתמשים בלבד. </span></b><span lang=HE style='font-family:"Tahoma","sans-serif"'>שימו
+לב שהאחריות הישירה להתנהלותכם מול הנהגים נמצאת עליכם בלבד. כך למשל, ביטולים או
+איחורים חוזרים (או תקלות אחרות בהתנהלות למול הנהגים) עלולים לגרום להשהיית
+השימוש באפליקציה על ידיכם או למניעתו כליל, ולא תהיה לכם כל טענה כלפי האפליקציה
+עקב כך, גם אם שגתה בשיקול דעתה.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>22.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>האחריות לבחירת הנהג על כתפיכם
+בלבד. </span></b><span lang=HE style='font-family:"Tahoma","sans-serif"'>אין
+לראות ברשימת השמות המוצעת על ידי האפליקציה משום המלצה על נהג כזה או אחר. </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>23.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אחריות להעלאת תכנים. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>כל אחד מכם אחראי להתנהגותו במהלך
+השימוש באפליקציה או בעת העלאת כל דירוג, ציון, נתון, טקסט, הודעה, התכתבות, מידע,
+ציור, צילום, גרפיקה, סרטון, קליפ, קטע קולי, קישור או כל תוכן אחר שיועלה לאפליקציה
+(להלן &quot;<b>תוכן</b>&quot;).</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>24.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>הצהרות ביחס לתכנים שתעלו. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>בהעלאת תוכן כלשהו לאפליקציה
+אתם מצהירים ו/או מתחייבים כי – </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:31.5pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-.25in;line-height:normal'><span
+style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>אתם
+הבעלים היחיד והמלא בכל הזכויות בכל תוכן כאמור.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:31.5pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-.25in;line-height:normal'><span
+style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>אתם
+רשאים ו/או אוחזים בכל רישיון נדרש לשם כל שימוש שתעשו בתוכן ביחס לאפליקציה.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:31.5pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-.25in;line-height:normal'><span
+style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'>העלאת
+התוכן לא תפר תנאים אלו, כל חוק שהוא או כל זכות צד שלישי ולא תפגע בדרך כלשהי
+באפליקציה או במשתמשיה.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>25.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>נקיטת צעדים ביחס לתכנים
+בעייתיים. </span></b><span lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה
+רשאית ועשויה, אך אינה חייבת, לפי שיקול דעתה הבלעדי לקבוע כי תוכן כזה או אחר הוא
+מאיים, מטעה, מגונה, פוגע, מפר זכויות של צד שלישי, מפר תנאים אלו, יש בו לשון הרע,
+הוא מפר את דיני מדינת ישראל או פסול בדרך אחרת כלשהי (להלן &quot;<b>תוכן פוגע</b>&quot;)
+ולנקוט פעולה ביחס אליו. </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>26.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>מאידך אתם מצהירים כי אתם
+מבינים שהאפליקציה לא תוכל למנוע את הימצאותו של תוכן פוגע באפליקציה ואתם עלולים
+להיות חשופים לחומר כזה. לא תהיה לכם כל טענה ביחס לאפליקציה בקשר לתוכן פוגע
+שנמצא בה. </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>27.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>מידע מסחרי אינו המלצה</span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>. האפליקציה עשויה לכלול מידע
+מסחרי של מפרסמים, נהגים וחברים שונים. אין לראות בכך המלצה או עידוד לרכישת
+המוצרים או השירותים הנזכרים באפליקציה או אחריות בגין אותם מוצרים או שירותים. </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>28.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>הסרת תכנים. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה רשאית בכל עת, לפי
+שיקול דעתה ואף בלא שהופרו תנאים אלו, לקרוא, לעיין, לבחון, לבדוק ולהסיר מהאפליקציה
+כל תוכן ו/או נהג ולא תהיה לכם כל טענה עקב כך. עם זאת, האפליקציה אינה מבצעת
+ניטור שוטף כאמור.</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'><span style='text-decoration:
+ none'>&nbsp;</span></span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אחריות הנהגים</span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>29.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>בשל אופי פעולת השירות חשוב
+לנו להדגיש, כי האפליקציה אינה מספקת את שירותי ההסעה/הובלה בפועל, אינה מפקחת על
+הנהגים או בודקת אותם ואינה אחראית ואינה יכולה להיות אחראית על כל רכיב הקשור
+בשירותי ההסעה בפועל.</span></b></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>30.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>לדוגמא, אין להסתמך על
+האפליקציה כהמלצה על נהג כזה או אחר, על עלות השירות הצפוי, על עמידתו של הנהג
+בלוח הזמנים או בדרישות משרד התחבורה וכיוצא בזה.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>31.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אנא בדקו את עצמכם ואל תתקשרו
+עם נהג שאינו מתאים לצרכיכם או שיש עימו חשש כלשהו.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>32.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה אינה אחראית על כל
+מעשה ו/או מחדל של נהג, גם אם נכלל בה או שפרטיו הוצגו לפניכם על ידה.</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'><span style='text-decoration:
+ none'>&nbsp;</span></span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>קודים והנחות [<span
+style='background:yellow'>אפשר למחוק אם לא רלוונטי. הכנסתי כי עלה בישיבה עם
+מקאן</span>]</span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>33.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>קודים. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה  רשאית אך אינה
+מתחייבת, לפי שיקול דעתה הבלעדי, ליצור קודים או אמצעי קידום מכירות אחרים שניתן
+יהיה לפדות אותם במהלך נסיעות עם נהגים שהקשר עימם נוצר באפליקציה (להלן: &quot;<b>קודים</b>&quot;).
+הקודים יהיו כפופים לתנאים הספציפיים של כל אחד מהם, כפי שיפורסמו במקום פרסום
+הקוד.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>34.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אין לעשות שימוש בקוד אלא
+למטרה שהוקנתה לו מראש על ידי האפליקציה. האפליקציה רשאית ליצור ו/או לבטל כל קוד
+כאמור בכל עת שתמצא לנכון, בלא צורך בהודעה מראש ובלא אחריות כלשהי.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>35.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>חל איסור מוחלט לשכפל את
+הקודים או ליצור קודים חדשים שלא התקבלו באמצעי הניהול הרגילים של האפליקציה.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>36.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>לא ניתן להמיר את הקודים
+במזומן והם עלולים לפקוע לפי תנאיהם.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>37.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה או הנהגים לא יהיו מחויבים
+לכבד קוד אשר על פניו נחזה להיות שאינו מקורי, הושג בצורה שונה מהמקובל או פסול
+בשל כל סיבה אחרת שהיא (דוגמת הפרת התנאים הנלווים לו).</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'><span style='text-decoration:
+ none'>&nbsp;</span></span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>זכויות קניין וקניין רוחני</span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>38.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>הרישיון הניתן על ידיכם
+לאפליקציה. </span></b><span lang=HE style='font-family:"Tahoma","sans-serif"'>בפרסום
+תוכן כלשהו באפליקציה, בכל דרך או מדיה שהיא, אתם מעניקים באופן בלתי חוזר רישיון
+עולמי, לא בלעדי, ניתן להעברה, בלתי ניתן לביטול, בלא תשלום, בכל מדיה שהיא (לרבות
+אך לא רק באינטרנט, באתרים, ביישומים, בעיתונות כתובה, באמצעי תקשורת אחרים,
+באמצעי פרסום וכיוב') להעתיק, להפיץ, ליצור יצירות נגזרות, לפרסם, לבצע ולהציג את
+התוכן, לבדו או בצירוף יצירות אחרות. </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>39.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>העלאת תוכן אינה פוגעת או מפרה</span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>. העלאת תוכן כלשהו לאפליקציה
+על ידיכם משמעה כי הינכם מצהירים שאתם בעלי הזכויות היחידים בו, כי תוכן זה אינו
+פוגע באיש ואינו מפר את זכויותיו של איש, כי אתם רשאים לפרסמו באפליקציה וכי אתם
+רשאים להעניק רישיון לאפליקציה כמתואר מעלה ביחס לאותו תוכן.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>40.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>כל הזכויות שמורות. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>כל הזכויות (ולא רק זכויות
+היוצרים) באפליקציה, בלוגו, בשם ובכל יצירה המופיעה בה, בכל מידע, תוכנה, קוד,
+קובץ, תמונה וכן מאגר נתונים (לרבות פירוט הנהגים), למעט תוכן שהועלה על ידי
+הגולשים, שייכות לאפליקציה בלבד ואין לעשות בהן כל שימוש אלא בהסכמת האפליקציה
+מראש ובכתב, לרבות לא לפרסמם, לשכפלם, לשנותם וכדומה.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>41.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>יש לכבד זכויות. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>חל איסור לעשות שימוש בתכנים
+שבאפליקציה מבלי לקבל מראש את הסכמת בעליהם לשימוש. כל שימוש כזה מפר זכויות
+יוצרים והאפליקציה מתנגדת לו בתוקף.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>42.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>מדיניות טיפול בתוכן מפר</span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>. האפליקציה מתנגדת להפרות של
+זכויות יוצרים וכל זכות אחרת. עם זאת, האפליקציה אינה יכולה להיות אחראית לתכנים
+המועלים אליה ואף אינה יכול להכריע מי צודק במקרה של ספק. לכן, מדיניותנו היא לא
+להתערב בתכנים המופיעים אצלנו אלא אם התקבלה תלונה אודות תוכן פוגע כזה או אחר.
+ניתן לשלוח תלונה באמצעות דוא&quot;ל<b><u> ________</u></b>. במסגרת התלונה אנא
+ציינו בדיוק לאיזה תוכן אתם מתכוונים (כולל הקישור הישיר אליו) ומה באותו תוכן
+פוגע בכם.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>43.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>פרטי התלונה. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>על תלונתכם לכלול את הפרטים
+הבאים: 1. פרטים מדויקים המזהים את בעל הזכות או המתלונן, 2. זיהוי מדויק של התוכן
+כנגדו אתם מתלוננים, 3. אמצעי קשר מספיקים שיאפשרו לנו ליצור עימכם קשר במידה
+ונצטרך (כתובת דוא&quot;ל פעילה לכל הפחות), 4. התוכן אליו מתייחסת התלונה ומה היא
+התלונה עצמה, 5. לרבות הצהרה כי התלונה נכונה למיטב ידיעתכם. אנא וודאו שהתלונה
+כולה נכונה ומדויקת, חתמו על התלונה בשמכם ושלחו אלינו לפי פרטי הקשר שצויינו קודם
+לכן.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>44.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>פעולה בעקבות תלונה. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>עם קבלת תלונה מלאה, אנו נפעל
+להורדת התוכן הפוגע מהאפליקציה מהר ככל האפשרות במגבלות העומדות בפנינו. לתשומת
+ליבכם – הודעה על הורדת התכנים והעתק מפנייתכם תמסר במידת האפשר למפרסם התכנים. האפליקציה
+לא תהיה אחראית לפתרון המחלוקת ביניכם ועליכם יהיה לפתור עניין זה ביניכם. מי
+שתכניו הורדו, יהא רשאי לפנות לבית המשפט בבקשה להשיבם לאפליקציה והאפליקציה תהיה
+רשאי למסור לו את פרטיו של המתלונן נגדו. לכם לא תהיה כל טענה כנגד מסירת פרטים
+זו.</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>קישורים ופרסומות</span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>45.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>קישורים ופרסומות אינם באחריות
+האפליקציה</span></b><span lang=HE style='font-family:"Tahoma","sans-serif"'>. באפליקציה
+עלולים להכלל קישורים או פרסומות, בין אם כתוכן גולשים ובין אם משולבים באפליקציה
+עצמו. האפליקציה אינה ממליצה על מי מהם, אינה קשורה עימם ואינה אחראית לתוכנם.
+מובהר כי יתכן שחלק מהקישורים יופיעו באפליקציה במסגרת שיתוף פעולה או תשלום
+כלשהו, אולם גם ביחס לקישורים אלו מבהירה האפליקציה כי אינה אחראית עליהם וכי
+האחריות ביחס לתכנים הנכללים באותם קישורים מוטלת עליהם בלבד.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>46.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אם נתקלתם בקישור מפר זכויות,
+קישור שתוכנו פוגע או בקישור בעייתי מבחינה אחרת – אנא הודיעונו ונבדוק את העניין.
+אם נתקלתם בקישור &quot;שבור&quot; שהועלה על ידי מערכת האפליקציה, הודיעו לנו
+ונתקן אותו.</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>העדר אחריות ומצגים</span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif";
+color:black'>47.<span style='font:7.0pt "Times New Roman"'> </span></span><span
+dir=RTL></span><b><span lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה
+</span></b><b><span dir=LTR style='font-family:"Tahoma","sans-serif"'>AS IS</span></b><span
+dir=RTL></span><b><span lang=HE style='font-family:"Tahoma","sans-serif"'><span
+dir=RTL></span>. פטור מלא מאחריות. </span></b><span lang=HE style='font-family:
+"Tahoma","sans-serif";color:black'>המידע, האפליקציה, השירותים, ההפניה לנהגים
+והתנהלותם  וכל התכנים והשירותים האחרים מסופקים &quot;כמות שהם&quot; או &quot;כפי
+שהם זמינים&quot; </span><span lang=HE style='font-family:"Tahoma","sans-serif"'>שהוא
+(</span><span dir=LTR style='font-family:"Tahoma","sans-serif"'>as is</span><span
+dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif"'><span
+dir=RTL></span>).<span style='color:black'> כל שימוש מכל סוג שהוא באפליקציה,
+במידע או בשירותים</span></span><span dir=LTR></span><span lang=HE dir=LTR
+style='font-family:"Tahoma","sans-serif";color:black'><span dir=LTR></span> </span><span
+lang=HE style='font-family:"Tahoma","sans-serif";color:black'>הוא באחריותכם הבלעדית,
+לרבות חוסר יכולת לעשות שימוש או טעות אחרת בשירותים או בהסעות שהוזמנו בעקבות
+השימוש באפליקציה. <b>בשום מקרה האפליקציה וכל מי מטעמה לא יהיו אחראים לכל נזקים,
+מכל סוג</b></span><span dir=LTR></span><b><span lang=HE dir=LTR
+style='font-family:"Tahoma","sans-serif";color:black'><span dir=LTR></span> </span></b><b><span
+lang=HE style='font-family:"Tahoma","sans-serif";color:black'>שהוא, לרבות בין
+השאר ולא רק, לנזקים ישירים, עקיפים, מיוחדים, אגביים או תוצאתיים</span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif";color:black'> (לדוגמא - שכר
+טרחת עורכי דין), בין במסגרת תביעה על פי עילה חוזית, נזיקית או כל עילה אחרת וכל תביעה
+אחרת בגין מעשה או מחדל שינבע או יהיה קשור בשימוש באפליקציה, מחוסר האפשרות
+להשתמש בה או בשירותים, מהשימוש בשירותים וההסעות, מהתנהלות הנהגים, מהמידע או התכנים
+אשר נכללים באפליקציה וזאת ללא קשר עם השאלה האם</span><span dir=LTR></span><span
+lang=HE dir=LTR style='font-family:"Tahoma","sans-serif";color:black'><span
+dir=LTR></span> </span><span lang=HE style='font-family:"Tahoma","sans-serif";
+color:black'>הנזק הובא לידיעתה.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif";
+color:black'>48.<span style='font:7.0pt "Times New Roman"'> </span></span><span
+dir=RTL></span><b><span lang=HE style='font-family:"Tahoma","sans-serif"'>מלוא
+האחריות על ההתקשרות ביניכם לבין הנהגים מוטלת עליכם ועל הנהגים בלבד.</span></b></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif";
+color:black'>49.<span style='font:7.0pt "Times New Roman"'> </span></span><span
+dir=RTL></span><b><span lang=HE style='font-family:"Tahoma","sans-serif"'>העדר
+מצגים. </span></b><span lang=HE style='font-family:"Tahoma","sans-serif"'>השימוש
+באפליקציה <span style='color:black'>ללא כל אחריות</span></span><span dir=LTR></span><span
+lang=HE dir=LTR style='font-family:"Tahoma","sans-serif";color:black'><span
+dir=LTR></span> </span><span lang=HE style='font-family:"Tahoma","sans-serif";
+color:black'>מכל סוג שהוא, באופן מפורש או מכללא, לרבות בין השאר, אחריות לזכות
+קניין או לאי הפרה; אחריות מכללא לאיכות מסחרית או להתאמה למטרה מסוימת או לצרכי
+המשתמשים;</span><span dir=LTR></span><span lang=HE dir=LTR style='font-family:
+"Tahoma","sans-serif";color:black'><span dir=LTR></span> </span><span lang=HE
+style='font-family:"Tahoma","sans-serif";color:black'>אחריות בקשר לזמינות,
+לדיוק, לאמינות, לחוקיות או לתכנים אשר נכללים באפליקציה או בשירותים המסופקים.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif";
+color:black'>50.<span style='font:7.0pt "Times New Roman"'> </span></span><span
+dir=RTL></span><b><span lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה
+אינה מספקת שירותי הסעה ואינה אחראית להם. </span></b><span lang=HE
+style='font-family:"Tahoma","sans-serif";color:black'>למעלה מן הצורך ומבלי
+לגרוע מהאמור מעלה, מובהר כי האפליקציה אינה מספקת את שירותי ההסעה וההובלה בעצמה,
+אלא באמצעות ספקי</span><span dir=LTR></span><span lang=HE dir=LTR
+style='font-family:"Tahoma","sans-serif";color:black'><span dir=LTR></span> </span><span
+lang=HE style='font-family:"Tahoma","sans-serif";color:black'>שירותים ונהגים. הנהגים
+הם קבלנים עצמאיים ואינם שליחים או עובדים של האפליקציה. לכן, האפליקציה אינה
+נושאת בכל אחריות ביחס לכל הקשור אף בנסיעות עצמן, לרבות אך לא רק – </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:28.35pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-14.85pt;line-height:normal'><span
+dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif";
+color:black'><span dir=RTL></span>1. לפעולות, טעויות, השמטות, מצגים,
+התחייבויות, הפרות, רשלנות או כל מחדל או מעשה אחרים של כל ספק שירותים או נהג כאמור,
+ולכל נזק גוף, מוות, נזק לרכוש, נזקים או הוצאות אחרים מכל סוג שהוא אשר ייגרמו</span><span
+dir=LTR></span><span lang=HE dir=LTR style='font-family:"Tahoma","sans-serif";
+color:black'><span dir=LTR></span> </span><span lang=HE style='font-family:
+"Tahoma","sans-serif";color:black'>עקב כך, </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:28.35pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-14.85pt;line-height:normal'><span
+lang=HE style='font-family:"Tahoma","sans-serif";color:black'>2. ביחס ל-(א) כל
+מחדל של נהג לספק את השירותים</span><span dir=LTR></span><span lang=HE dir=LTR
+style='font-family:"Tahoma","sans-serif";color:black'><span dir=LTR></span> </span><span
+lang=HE style='font-family:"Tahoma","sans-serif";color:black'>המבוקשים על ידיכם,
+במלואם, באיכות מסויימת, במידת דיוק כזו או אחרת או בכל מחדל או מעשה אחר ביחס
+לשירות כזה או אחר, (ב) כל סירוב של נהג או ספק שירותים לספק לכם את השירותים</span><span
+dir=LTR></span><span lang=HE dir=LTR style='font-family:"Tahoma","sans-serif";
+color:black'><span dir=LTR></span> </span><span lang=HE style='font-family:
+"Tahoma","sans-serif";color:black'>בנקודת האיסוף אותה ביקשתם, עיכוב או כל תקלה
+אחרת; (ג) כל מחדל מצידו של הנהג או ספק השירותים להיות מבוטח כנדרש</span><span
+dir=LTR></span><span lang=HE dir=LTR style='font-family:"Tahoma","sans-serif";
+color:black'><span dir=LTR></span> </span><span lang=HE style='font-family:
+"Tahoma","sans-serif";color:black'>בהתאם לכל דין רלוונטי, ו-(ד) אם ספק השירותים
+משתמש לצורך הספקת השירותים בכלי רכב אשר על פי דעתך</span><span dir=LTR></span><span
+lang=HE dir=LTR style='font-family:"Tahoma","sans-serif";color:black'><span
+dir=LTR></span> </span><span lang=HE style='font-family:"Tahoma","sans-serif";
+color:black'>אינו בתקן משביע רצון; </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:28.35pt;
+margin-bottom:0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;
+text-justify:inter-cluster;text-indent:-14.85pt;line-height:normal'><span
+lang=HE style='font-family:"Tahoma","sans-serif";color:black'>3. להעניק תשלום,
+פיצוי או החזר בכל מקרה דוגמת איחור, ביטול, הזמנה ביתר, שביתה, הפגנה, מחסום,
+תקלה, כח עליון או סיבות אחרות שאינן בשליטתה הישירה של האפליקציה, </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>51.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>כיוון שהאפליקציה פעולת אך ורק
+כמעין לוח מקוון המקשר בין המשתמשים לנהגים, האפליקציה אינה נוטלת אחריות על כל
+דבר הקשור בנהג ו/או בנסיעה, לרבות לא על סוג הרכב, תנאיו, עמידה בדרישות החוק,
+התאמה לדרישות הנוסע/המשתמש וכדומה. האחריות המלאה לכל עניינים אלו מוטלת על כתפיו
+של הנהג, והוא בלבד.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>52.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אין התחייבות לפעולה רציפה
+ונקייה מתקלות. </span></b><span lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה
+אינה מתחייבת לפעילות רציפה בלתי מופסקת, לזמינות כזו או אחרת או לכל הפסקת שירות,
+יזומה או שאינה יזומה. יתכן כי פעילות האפליקציה תופסק אף באופן יזום לשם ביצוע
+פעולות תחזוקה ושדרוג או לכל מטרה אחרת שתראה נחוצה בנסיבות. </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif";
+color:black'>53.<span style='font:7.0pt "Times New Roman"'> </span></span><span
+dir=RTL></span><b><span lang=HE style='font-family:"Tahoma","sans-serif"'>פיצויים
+מוגבלים. </span></b><span lang=HE style='font-family:"Tahoma","sans-serif";
+color:black'>על אף האמור לעיל, אם מסיבה כלשהי יקבע בית משפט מוסמך כי האפליקציה
+אינה רשאית להגביל את אחריותה בדרך מסויימת, גם אז מוסכם במפורש עליכם, המשתמשים,
+כי אחריות האפליקציה, במצטבר כלפיכם, לא תעלה על הסכום של 1,000 (אלף) ש&quot;ח. </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>54.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אין אחריות להתאמה למכשיר. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה מבוססת מכשירים
+ניידים. מכיוון שאלו מיוצרים על ידי יצרנים שונים ומפעילים תוכנות שונות,
+האפליקציה עשוייה שלא לפעול ו/או להתאים למכשיר בו אתם עושים שימוש. </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>55.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>מכיוון שהאפליקציה פעילה על
+גבי מכשירים מסוגים שונים ומסתמכת על קישוריות לרשת האינטרנט, מובהר בזאת כי
+האחריות להפעיל מכשיר אשר מתאים לשימוש באפליקציה ולדאוג לקישוריות מקוונת הינה
+באחריותכם הבלעדית בלבד. האפליקציה אינה מתחייבת כי תפעל על כל מכשיר סלולארי או
+נייד, במלואה או בחלקה. בעיות בקישוריות המקוונת אף הן יכולות לגרום לתקלות בשימוש
+באפליקציה.  מובהר כי האפליקציה לא תהיה אחראית בדרך כלשהי לכל נזק ו/או תקלה
+שייגרמו למכשיר שלכם.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>56.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>קיום נהגים ושירותים אינו מטיל
+אחריות. </span></b><span lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה
+תהיה רשאי לקדם תכנים ו/או נהגים ו/או שירותים כאלו ואחרים לפי שיקול דעתה הבלעדי,
+מבלי שתהיה כל טענה בדבר פגיעה בעסקים או בענייניו הפרטיים  שנגרמה עקב כך.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>57.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אין התחייבות לשירותים. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה אינה מתחייבת כי
+מכלול השירותים המוצעים או שיוצעו בה יוסיפו להיות מוצעים, ויתכן ושירות כזה או
+אחר ישלל בלא מתן הודעה מוקדמת על כך מראש. כמו כן יתכן כי בשל נסיבות כלשהן
+האפליקציה תפסיק את פעילותה, בין אם באופן זמני ובין אם באופן קבוע, ולא יהיה בכך
+כדי להטיל על האפליקציה כל אחריות מכל מין וסוג שהוא.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>58.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אין אחריות לתוכן משתמשים. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אין להסתמך על כל תוכן, נתון,
+דירוג או מידע המועלה לאפליקציה, בעצמה או באמצעות משתמשים אחרים, ואין להסתמך
+עליהם. האפליקציה לא תהיה אחראית לכך.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>59.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>יתכנו חיובים סלולאריים עקב
+השימוש. </span></b><span lang=HE style='font-family:"Tahoma","sans-serif"'>עוד
+שימו לב כי יתכן שכתוצאה משימוש באפליקציה והודעות שתקבלו מהאפליקציה יווצרו לכם
+חיובים מול ספקי השירות הסלולארי או המקוון. עליכם לבדוק זאת מולם.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>60.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אין אחריות לנוזקות, רוגלות
+וכדומה. </span></b><span lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה
+אינה אחראית לכל וירוס, סוס טרויאני או תוכנה מזיקה אחרת שתוטמן במי מהתכנים
+המועלים אליו על ידי הגולשים או בכל דרך אחרת בשירותים אותם היא מספקת. האפליקציה
+גם לא תהיה אחראית לפריצות של האפליקציה או המאגרים הנשמרים על ידה.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>61.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אין התחייבות לגיבוי. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה תפעיל מעת לעת גיבוי
+סביר של התכנים המופיעים בה, אולם הינכם מתבקשים לשמור אצלכם עותק של כל תוכן
+המועלה לאפליקציה. במקרה של אובדן תכנים, מחיקתם או השחתתם – האפליקציה לא תהיה
+אחראית לכך.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>62.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אין אחריות לפרסומות. </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>כל הפרסומות באפליקציה הן
+באחריות מפרסמיהם. האפליקציה אינה מנטרת או מצנזרת פרסומות.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>63.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אין אחריות לתמיכה טכנית.  </span></b><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>האפליקציה אינה מספקת תמיכה
+טכנית למשתמשים או לנהגים. אם תתקבל פניה כלשהי שתענה על ידי צוות האפליקציה, הרי
+פניה זו, התשובה וההסתמכות עליה תהיה על אחריות המשתמש בלבד.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span dir=RTL></span><span
+style='font-family:"Tahoma","sans-serif"'>64.<span style='font:7.0pt "Times New Roman"'>
+</span></span><span dir=RTL></span><span dir=RTL></span><b><span lang=HE
+style='font-family:"Tahoma","sans-serif"'><span dir=RTL></span>&quot;האפליקציה&quot;
+לרבות בעלים, מפעילים, נציגים וכד'. </span></b><span lang=HE style='font-family:
+"Tahoma","sans-serif"'>לשם הזהירות, אנו חוזרים ומבהירים, כי בכל מקום בהסכם זה
+הפוטר את האפליקציה מאחריות, תכלול הגדרת ה&quot;אפליקציה&quot; גם כל מפעיל,
+בעלים, מנהל, עובד, בעל מניות, בעל שליטה, שותף, סוכן ו/או נציג אחר כלשהו.</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><span
+lang=HE style='font-family:"Tahoma","sans-serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>שיפוי</span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif";
+color:black'>65.<span style='font:7.0pt "Times New Roman"'> </span></span><span
+dir=RTL></span><span lang=HE style='font-family:"Tahoma","sans-serif";
+color:black'>אתם  מסכימים כי תגנו על, תשפו את וכן תמנעו כל נזק מהאפליקציה וכל
+מי מטעמה, לרבות מנהליה, בעליה, עובדיה, שליחיה, נציגיה וכדומה מיידית עם קבלת
+ההודעה על כך בכל דרך תקשורת שהיא מפני ונגד כל תביעות, הפסדים, עלויות, נזקים,
+התחייבויות, אחריות והוצאות מכל סוג שהוא (לרבות שכ&quot;ט עו&quot;ד) שנגרמו בקשר
+כלשהי עם שימושכם באפליקציה, בשירותיה ו/או בשירותי צד שלישי בעקבות השימוש
+באפליקציה, עם הפרת התנאים אלו וכל הסדר אחר המפורט באפליקציה וכן הפרת זכויות צד
+שלישי כלשהן.</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><span
+lang=HE style='font-family:"Tahoma","sans-serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>תחולת התנאים וסיום החברות</span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>66.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>תוכלו לסיים את חברותכם באפליקציה
+בכל עת לבחירתכם. </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>67.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>גם האפליקציה תהיה רשאית
+להפסיק את חברותכם באפליקציה או לחסום אתכם בדרך אחרת בכל עת לפי שיקול דעתה. לא
+תהיה לכם כל טענה כנגד האפליקציה על סיום חברותכם באפליקציה, ובמידה ושילמתם לאפליקציה.
+בגין שירות שטרם קיבלתם – יושב לכם הסכום אותו שילמתם בניכוי דמי ביטול, כפי
+שיחולו מעת לעת. </span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>68.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>תנאים רלוונטיים בתנאים אלו יוסיפו
+לחול גם בסיום חברותכם, ובמיוחד אך לא רק, תנאי העדר האחריות, הסמכות וכל יתר
+התנאים הרלוונטיים.</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>סמכות ודין</span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>69.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>תנאים אלו כפופים לדין הישראלי
+[?<span style='background:yellow'>איזה דין רוצים? איזו סמכות שיפוט</span>?]ויפורשו
+לפיו, בלבד. כל מחלוקת, סכסוך או בעיה אחרת תידון באופן בלעדי בפני בתי המשפט בתל
+אביב יפו וכל אחד מהמשתמשים כופף עצמו לסמכותם הבלעדית של בתי משפט אלו בעצם
+השימוש באפליקציה ו/או בחברות בו.</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>[<span style='background:
+yellow'>האם אנחנו רוצים בוררות</span>?]</span></p>
+
+<p class=MsoNormal dir=LTR style='text-align:justify;direction:ltr;unicode-bidi:
+embed'><span style='font-family:"Tahoma","sans-serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>התיישנות תביעה</span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>70.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>בשל אופיה המיוחד והדינמי של האפליקציה,
+מוסכם בזאת עליכם שעל אף האמור בכל דין וחוק לא ניתן יהיה להגיש תביעה כנגד האפליקציה
+בחלוף שלוש (3) שנים ממועד התגבשות עילת התביעה. </span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'><span style='text-decoration:
+ none'>&nbsp;</span></span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אישור שבת</span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>71.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>לאפליקציה &quot;אישור
+שבת&quot; שניתן על ידי כבוד הרב ישראל רוזן, מהנדס, שתוקפו עד לחודש ניסן
+תש&quot;פ.</span></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>72.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>בשל כך חשוב לנו להבהיר
+שהתשלום של הנהגים לאפליקציה הינו בגין רשיון שימוש בתוכנת האפליקציה המאפשרת קשר
+ישיר בין הנהג לבין הלקוחות. האפליקציה אינה מעורבת בדרך כלשהי בעצם מתן השירות,
+והמשתמשים בתוכנה אינם עושים שימוש בציוד או במשאב כלשהו של החברה.</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'><span style='text-decoration:
+ none'>&nbsp;</span></span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><b><u><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>שונות</span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='margin-top:0in;margin-right:.25in;margin-bottom:
+0in;margin-left:0in;margin-bottom:.0001pt;text-align:justify;text-justify:inter-cluster;
+text-indent:-.25in;line-height:normal'><span style='font-family:"Tahoma","sans-serif"'>73.<span
+style='font:7.0pt "Times New Roman"'> </span></span><span dir=RTL></span><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>אם בכל עת ימצא בית משפט מוסמך
+כי יש לשנות או למחוק תנאי מתנאים אלו, מוסכם כי השינוי יעשה בצורה הזהירה ביותר
+ובאופן שישמור את רוחם של התנאים כפי היא, וכך גם כל מחיקה תעשה באופן המינימלי
+ביותר האפשרי. יתר התנאים יוסיפו להיות בתוקף על אף כל מחיקה או שינוי כאמור.</span></p>
+
+<p class=MsoNormal dir=LTR style='text-align:justify;line-height:normal;
+direction:ltr;unicode-bidi:embed'><b><u><span style='font-family:"Tahoma","sans-serif";
+color:black'><span style='text-decoration:none'>&nbsp;</span></span></u></b></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><span
+lang=HE style='font-family:"Tahoma","sans-serif"'>תאריך העדכון האחרון של תנאים
+אלו - ___________.</span></p>
+
+<p class=MsoNormal dir=RTL style='text-align:justify;text-justify:inter-cluster'><span
+dir=LTR><br>
+<br>
+</span></p>
+
+<p class=MsoNormal dir=LTR style='text-align:justify;direction:ltr;unicode-bidi:
+embed'><span style='font-family:"Tahoma","sans-serif";color:black'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>

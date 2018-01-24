@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="627307bd272944ec8c1ea8badf5a4ed2" Name="Diagram1" ZoomLevel="71">
+        <EntityTypeShape EntityType="BallyTaxiModel.CountryCode" Width="1.5" PointX="9.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BallyTaxiModel.FavoriteAddress" Width="1.5" PointX="7" PointY="2.375" />
+        <EntityTypeShape EntityType="BallyTaxiModel.FavoriteDriver" Width="1.5" PointX="5.375" PointY="6.75" />
+        <EntityTypeShape EntityType="BallyTaxiModel.Image" Width="1.5" PointX="0.75" PointY="5.75" />
+        <EntityTypeShape EntityType="BallyTaxiModel.Language" Width="1.5" PointX="0.75" PointY="2.625" />
+        <EntityTypeShape EntityType="BallyTaxiModel.Orders_Drivers" Width="1.5" PointX="12.75" PointY="6.25" />
+        <EntityTypeShape EntityType="BallyTaxiModel.PendingUser" Width="1.5" PointX="3.5" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BallyTaxiModel.SupportedCountry" Width="1.5" PointX="11.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BallyTaxiModel.User" Width="1.5" PointX="3" PointY="4.25" />
+        <AssociationConnector Association="BallyTaxiModel.FK_User_Images" />
+        <AssociationConnector Association="BallyTaxiModel.FK_User_Languages" />
+        <EntityTypeShape EntityType="BallyTaxiModel.SystemSetting" Width="1.5" PointX="0.75" PointY="9.75" />
+        <EntityTypeShape EntityType="BallyTaxiModel.TaxiStation" Width="1.5" PointX="1.875" PointY="11.375" />
+        <EntityTypeShape EntityType="BallyTaxiModel.Order" Width="1.5" PointX="10" PointY="6.625" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Orders_Drivers_Orders" />
+        <AssociationConnector Association="BallyTaxiModel.FK_FavoriteAddresses_Passenger" />
+        <AssociationConnector Association="BallyTaxiModel.FK_FavoriteDrivers_Passenger" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Orders_Passenger" />
+        <EntityTypeShape EntityType="BallyTaxiModel.BusinessApprovedPhone" Width="1.5" PointX="13" PointY="11.75" />
+        <EntityTypeShape EntityType="BallyTaxiModel.Business" Width="1.5" PointX="13" PointY="9" />
+        <AssociationConnector Association="BallyTaxiModel.FK_BusinessApprovedPhones_Businesses" />
+        <EntityTypeShape EntityType="BallyTaxiModel.Driver" Width="1.5" PointX="7.5" PointY="11.5" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Driver_User" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Drivers_TaxiStations" />
+        <AssociationConnector Association="BallyTaxiModel.FK_FavoriteDrivers_Driver" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Orders_Driver" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Orders_Drivers_Driver" />
+        <EntityTypeShape EntityType="BallyTaxiModel.CreditCard" Width="1.5" PointX="5.25" PointY="10.125" />
+        <EntityTypeShape EntityType="BallyTaxiModel.Message" Width="1.5" PointX="5.25" PointY="14.25" />
+        <AssociationConnector Association="BallyTaxiModel.FK_CreditCards_Users" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Drivers_CreditCards" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Messages_Users" />
+        <EntityTypeShape EntityType="BallyTaxiModel.Passenger" Width="1.5" PointX="5.625" PointY="17" />
+        <EntityTypeShape EntityType="BallyTaxiModel.sysdiagram" Width="1.5" PointX="12.875" PointY="2.75" />
+        <EntityTypeShape EntityType="BallyTaxiModel.Version" Width="1.5" PointX="0.75" PointY="13.75" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Passenger_User" />
+        <EntityTypeShape EntityType="BallyTaxiModel.PriceBetweenCity" Width="1.75" PointX="11.75" PointY="15" />
+        <EntityTypeShape EntityType="BallyTaxiModel.Account" Width="1.5" PointX="13.375" PointY="14.75" />
+        <EntityTypeShape EntityType="BallyTaxiModel.CarType" Width="1.5" PointX="15.375" PointY="0.75" />
+        <EntityTypeShape EntityType="BallyTaxiModel.ISR_TaxiStations" Width="1.5" PointX="4.875" PointY="20" />
+        <AssociationConnector Association="BallyTaxiModel.FK_BusinessId" />
+        <AssociationConnector Association="BallyTaxiModel.FK_StationId" />
+        <EntityTypeShape EntityType="BallyTaxiModel.PhoneDriversApproved" Width="1.5" PointX="0.75" PointY="15.75" />
+        <EntityTypeShape EntityType="BallyTaxiModel.Coupon" Width="1.5" PointX="12.25" PointY="18.625" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Coupons_Orders" />
+        <EntityTypeShape EntityType="BallyTaxiModel.CreditCardUser" Width="1.75" PointX="5.375" PointY="22.375" />
+        <AssociationConnector Association="BallyTaxiModel.FK_CreditCardUser_Users" />
+        <AssociationConnector Association="BallyTaxiModel.FK_User_Business" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Coupons_Users" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Orders_business" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Coupons_Users_SMS" />
+        <EntityTypeShape EntityType="BallyTaxiModel.Bank" Width="1.5" PointX="15.375" PointY="3.75" />
+        <AssociationConnector Association="BallyTaxiModel.FK_User_TaxiStations" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Orders_Account" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Drivers_Banks" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Drivers_CarTypes" />
+        <EntityTypeShape EntityType="BallyTaxiModel.DriverRegion" Width="1.5" PointX="9.75" PointY="17.625" />
+        <EntityTypeShape EntityType="BallyTaxiModel.LocationForRegion" Width="1.5" PointX="5.875" PointY="26" />
+        <EntityTypeShape EntityType="BallyTaxiModel.Region" Width="1.5" PointX="8.125" PointY="20.75" />
+        <AssociationConnector Association="BallyTaxiModel.FK_DriverRegion_Drivers" />
+        <AssociationConnector Association="BallyTaxiModel.FK_DriverRegion_Region" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Region_TaxiStations" />
+        <AssociationConnector Association="BallyTaxiModel.RegionLocation" />
+        <EntityTypeShape EntityType="BallyTaxiModel.AccountsForAdmin" Width="1.5" PointX="15.375" PointY="6.75" />
+        <EntityTypeShape EntityType="BallyTaxiModel.priceForInterCity_update" Width="1.5" PointX="15.375" PointY="9.75" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Businesses_TaxiStations" />
+        <AssociationConnector Association="BallyTaxiModel.FK_Orders_TaxiStations" />
+        <EntityTypeShape EntityType="BallyTaxiModel.PriceForInterCityNewUpdate" Width="1.5" PointX="15.375" PointY="12.75" />
+        <EntityTypeShape EntityType="BallyTaxiModel.rider_users_" Width="1.5" PointX="15.375" PointY="15.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,97 @@
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\Resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\Resources.pdb
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\HE-IL\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.resources
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.HE-IL.resources
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.csproj.GenerateResource.Cache
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\HE-IL\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.pdb
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\ar\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\es\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\fr\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\pt\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\ru\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.csprojResolveAssemblyReference.cache
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.ar.resources
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.es.resources
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.fr.resources
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.pt.resources
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.ru.resources
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\ar\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\es\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\fr\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\pt\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\ru\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\Resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\Resources.pdb
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\ar\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\es\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\fr\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\pt\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\ru\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\HE-IL\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.resources
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.ar.resources
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.es.resources
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.fr.resources
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.pt.resources
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.ru.resources
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.HE-IL.resources
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.csproj.GenerateResource.Cache
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\ar\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\es\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\fr\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\pt\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\ru\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\HE-IL\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.pdb
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\Resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\Resources.pdb
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\ar\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\es\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\fr\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\pt\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\ru\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\bin\Debug\HE-IL\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.resources
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.ar.resources
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.es.resources
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.fr.resources
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.pt.resources
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.ru.resources
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.Resources.HE-IL.resources
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\ar\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\es\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\fr\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\pt\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\ru\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\HE-IL\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Resources\obj\Debug\Resources.pdb
+C:\NewDev\BallyTaxi\Resources\bin\Debug\Resources.dll
+C:\NewDev\BallyTaxi\Resources\bin\Debug\Resources.pdb
+C:\NewDev\BallyTaxi\Resources\bin\Debug\ar\Resources.resources.dll
+C:\NewDev\BallyTaxi\Resources\bin\Debug\es\Resources.resources.dll
+C:\NewDev\BallyTaxi\Resources\bin\Debug\fr\Resources.resources.dll
+C:\NewDev\BallyTaxi\Resources\bin\Debug\pt\Resources.resources.dll
+C:\NewDev\BallyTaxi\Resources\bin\Debug\ru\Resources.resources.dll
+C:\NewDev\BallyTaxi\Resources\bin\Debug\HE-IL\Resources.resources.dll
+C:\NewDev\BallyTaxi\Resources\obj\Debug\Resources.Resources.resources
+C:\NewDev\BallyTaxi\Resources\obj\Debug\Resources.Resources.ar.resources
+C:\NewDev\BallyTaxi\Resources\obj\Debug\Resources.Resources.es.resources
+C:\NewDev\BallyTaxi\Resources\obj\Debug\Resources.Resources.fr.resources
+C:\NewDev\BallyTaxi\Resources\obj\Debug\Resources.Resources.pt.resources
+C:\NewDev\BallyTaxi\Resources\obj\Debug\Resources.Resources.ru.resources
+C:\NewDev\BallyTaxi\Resources\obj\Debug\Resources.Resources.HE-IL.resources
+C:\NewDev\BallyTaxi\Resources\obj\Debug\Resources.csproj.GenerateResource.Cache
+C:\NewDev\BallyTaxi\Resources\obj\Debug\ar\Resources.resources.dll
+C:\NewDev\BallyTaxi\Resources\obj\Debug\es\Resources.resources.dll
+C:\NewDev\BallyTaxi\Resources\obj\Debug\fr\Resources.resources.dll
+C:\NewDev\BallyTaxi\Resources\obj\Debug\pt\Resources.resources.dll
+C:\NewDev\BallyTaxi\Resources\obj\Debug\ru\Resources.resources.dll
+C:\NewDev\BallyTaxi\Resources\obj\Debug\HE-IL\Resources.resources.dll
+C:\NewDev\BallyTaxi\Resources\obj\Debug\Resources.dll
+C:\NewDev\BallyTaxi\Resources\obj\Debug\Resources.pdb

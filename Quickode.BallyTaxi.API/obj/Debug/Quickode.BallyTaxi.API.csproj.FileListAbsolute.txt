@@ -1,0 +1,430 @@
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\SqlServerTypes\x64\msvcr100.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\SqlServerTypes\x64\SqlServerSpatial110.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\SqlServerTypes\x86\msvcr100.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\SqlServerTypes\x86\SqlServerSpatial110.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.API.dll.config
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.API.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.API.pdb
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Antlr3.Runtime.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\AWSSDK.Core.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\AWSSDK.S3.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\EntityFramework.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\EntityFramework.SqlServer.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\log4net.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.Core.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Cookies.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Facebook.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Google.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.OAuth.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Twitter.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.SqlServer.Types.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Web.Helpers.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Web.Infrastructure.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Newtonsoft.Json.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Owin.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Core.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Domain.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Models.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Net.Http.Formatting.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Helpers.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Http.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Http.Owin.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Http.WebHost.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Mvc.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Optimization.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Razor.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.WebPages.Deployment.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.WebPages.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.WebPages.Razor.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\WebGrease.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\WebMatrix.Data.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\WebMatrix.WebData.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Twilio.Api.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\PushSharp.Apple.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\PushSharp.Google.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\PushSharp.Core.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.WindowsAzure.Storage.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\PhoneNumbers.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\RestSharp.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Core.pdb
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Domain.pdb
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Models.pdb
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Resources.pdb
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Antlr3.Runtime.pdb
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\AWSSDK.Core.pdb
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\AWSSDK.Core.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\AWSSDK.S3.pdb
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\AWSSDK.S3.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\EntityFramework.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\EntityFramework.SqlServer.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\log4net.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.Core.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Cookies.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Facebook.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Google.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.OAuth.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Twitter.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Newtonsoft.Json.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Net.Http.Formatting.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Helpers.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Http.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Http.Owin.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Http.WebHost.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Mvc.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Razor.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.WebPages.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.WebPages.Deployment.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.WebPages.Razor.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Optimization.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\WebMatrix.Data.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\WebMatrix.WebData.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Twilio.Api.pdb
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Twilio.Api.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.WindowsAzure.Storage.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\RestSharp.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\HE-IL\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\obj\Debug\Quickode.BallyTaxi.API.csprojResolveAssemblyReference.cache
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\obj\Debug\Quickode.BallyTaxi.API.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\obj\Debug\Quickode.BallyTaxi.API.pdb
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\ar\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\es\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\fr\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\pt\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\ru\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\SqlServerTypes\x64\msvcr100.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\SqlServerTypes\x64\SqlServerSpatial110.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\SqlServerTypes\x86\msvcr100.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\SqlServerTypes\x86\SqlServerSpatial110.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.API.dll.config
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.API.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.API.pdb
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Antlr3.Runtime.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\AWSSDK.Core.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\AWSSDK.S3.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\EntityFramework.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\EntityFramework.SqlServer.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\log4net.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.Core.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Cookies.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Facebook.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Google.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.OAuth.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Twitter.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.SqlServer.Types.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Web.Helpers.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Web.Infrastructure.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Newtonsoft.Json.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Owin.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Core.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Domain.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Models.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Net.Http.Formatting.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Helpers.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Http.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Http.Owin.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Http.WebHost.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Mvc.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Optimization.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Razor.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.WebPages.Deployment.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.WebPages.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.WebPages.Razor.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\WebGrease.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\WebMatrix.Data.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\WebMatrix.WebData.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Twilio.Api.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\PushSharp.Apple.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\PushSharp.Google.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\PushSharp.Core.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.WindowsAzure.Storage.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\PhoneNumbers.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\RestSharp.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Data.Edm.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Data.Services.Client.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Data.OData.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Core.pdb
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Core.dll.config
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Domain.pdb
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Domain.dll.config
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Models.pdb
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Models.dll.config
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Resources.pdb
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Antlr3.Runtime.pdb
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\AWSSDK.Core.pdb
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\AWSSDK.Core.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\AWSSDK.S3.pdb
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\AWSSDK.S3.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\EntityFramework.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\EntityFramework.SqlServer.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\log4net.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.Core.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Cookies.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Facebook.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Google.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.OAuth.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Twitter.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Newtonsoft.Json.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Net.Http.Formatting.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Helpers.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Http.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Http.Owin.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Http.WebHost.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Mvc.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Razor.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.WebPages.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.WebPages.Deployment.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.WebPages.Razor.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Optimization.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\WebMatrix.Data.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\WebMatrix.WebData.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Twilio.Api.pdb
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Twilio.Api.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.WindowsAzure.Storage.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\RestSharp.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\ar\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\es\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\fr\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\HE-IL\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\pt\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\ru\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\obj\Debug\Quickode.BallyTaxi.API.csprojResolveAssemblyReference.cache
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\obj\Debug\Quickode.BallyTaxi.API.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\obj\Debug\Quickode.BallyTaxi.API.pdb
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\SqlServerTypes\x64\msvcr100.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\SqlServerTypes\x64\SqlServerSpatial110.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\SqlServerTypes\x86\msvcr100.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\SqlServerTypes\x86\SqlServerSpatial110.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.API.dll.config
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.API.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.API.pdb
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Antlr3.Runtime.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\AWSSDK.Core.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\AWSSDK.S3.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\EntityFramework.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\log4net.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.SqlServer.Types.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Web.Helpers.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Owin.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Core.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Domain.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Models.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Helpers.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Http.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Http.Owin.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Mvc.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Optimization.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Razor.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.WebPages.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\WebGrease.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\WebMatrix.Data.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\WebMatrix.WebData.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Twilio.Api.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\PushSharp.Apple.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\PushSharp.Google.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\PushSharp.Core.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\PhoneNumbers.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\RestSharp.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Core.pdb
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Domain.pdb
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Models.pdb
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Resources.pdb
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Antlr3.Runtime.pdb
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\AWSSDK.Core.pdb
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\AWSSDK.Core.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\AWSSDK.S3.pdb
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\AWSSDK.S3.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\EntityFramework.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\log4net.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Helpers.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Http.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Http.Owin.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Mvc.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Razor.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.WebPages.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\System.Web.Optimization.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\WebMatrix.Data.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\WebMatrix.WebData.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Twilio.Api.pdb
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Twilio.Api.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\RestSharp.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\ar\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\es\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\fr\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\HE-IL\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\pt\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\bin\ru\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\obj\Debug\Quickode.BallyTaxi.API.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\obj\Debug\Quickode.BallyTaxi.API.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.API\obj\Debug\Quickode.BallyTaxi.API.pdb
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\SqlServerTypes\x64\msvcr100.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\SqlServerTypes\x64\SqlServerSpatial110.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\SqlServerTypes\x86\msvcr100.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\SqlServerTypes\x86\SqlServerSpatial110.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.API.dll.config
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.API.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.API.pdb
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Antlr3.Runtime.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\AWSSDK.Core.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\AWSSDK.S3.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\EntityFramework.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\EntityFramework.SqlServer.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\log4net.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.Core.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Owin.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Cookies.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Facebook.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Google.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.OAuth.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Twitter.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.SqlServer.Types.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Web.Helpers.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Web.Infrastructure.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Newtonsoft.Json.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Owin.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Core.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Domain.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Models.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Resources.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Net.Http.Formatting.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.Helpers.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.Http.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.Http.Owin.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.Http.WebHost.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.Mvc.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.Optimization.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.Razor.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.WebPages.Deployment.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.WebPages.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.WebPages.Razor.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\WebGrease.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\WebMatrix.Data.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\WebMatrix.WebData.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Twilio.Api.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\PushSharp.Apple.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\PushSharp.Google.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\PushSharp.Core.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.WindowsAzure.Storage.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\PhoneNumbers.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\RestSharp.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Core.pdb
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Domain.pdb
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Quickode.BallyTaxi.Models.pdb
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Resources.pdb
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Antlr3.Runtime.pdb
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\AWSSDK.Core.pdb
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\AWSSDK.Core.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\AWSSDK.S3.pdb
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\AWSSDK.S3.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\EntityFramework.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\EntityFramework.SqlServer.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\log4net.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.Core.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Owin.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Cookies.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Facebook.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Google.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.OAuth.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.Owin.Security.Twitter.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Newtonsoft.Json.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Net.Http.Formatting.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.Helpers.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.Http.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.Http.Owin.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.Http.WebHost.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.Mvc.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.Razor.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.WebPages.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.WebPages.Deployment.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.WebPages.Razor.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\System.Web.Optimization.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\WebMatrix.Data.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\WebMatrix.WebData.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Twilio.Api.pdb
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Twilio.Api.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\Microsoft.WindowsAzure.Storage.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\RestSharp.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\ar\Resources.resources.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\es\Resources.resources.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\fr\Resources.resources.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\HE-IL\Resources.resources.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\pt\Resources.resources.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\bin\ru\Resources.resources.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\obj\Debug\Quickode.BallyTaxi.API.csprojResolveAssemblyReference.cache
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\obj\Debug\Quickode.BallyTaxi.API.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.API\obj\Debug\Quickode.BallyTaxi.API.pdb

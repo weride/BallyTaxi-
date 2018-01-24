@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BallyTaxiModelStoreContainer" CdmEntityContainer="BallyTaxiEntities">
+    <EntitySetMapping Name="CountryCodes">
+      <EntityTypeMapping TypeName="BallyTaxiModel.CountryCode">
+        <MappingFragment StoreEntitySet="CountryCodes">
+          <ScalarProperty Name="hebrewName" ColumnName="hebrewName" />
+          <ScalarProperty Name="is_independent" ColumnName="is_independent" />
+          <ScalarProperty Name="currency_numeric_code" ColumnName="currency_numeric_code" />
+          <ScalarProperty Name="currency_name" ColumnName="currency_name" />
+          <ScalarProperty Name="currency_minor_unit" ColumnName="currency_minor_unit" />
+          <ScalarProperty Name="currency_country_name" ColumnName="currency_country_name" />
+          <ScalarProperty Name="currency_alphabetic_code" ColumnName="currency_alphabetic_code" />
+          <ScalarProperty Name="IOC" ColumnName="IOC" />
+          <ScalarProperty Name="GAUL" ColumnName="GAUL" />
+          <ScalarProperty Name="FIPS" ColumnName="FIPS" />
+          <ScalarProperty Name="FIFA" ColumnName="FIFA" />
+          <ScalarProperty Name="Dial" ColumnName="Dial" />
+          <ScalarProperty Name="DS" ColumnName="DS" />
+          <ScalarProperty Name="WMO" ColumnName="WMO" />
+          <ScalarProperty Name="MARC" ColumnName="MARC" />
+          <ScalarProperty Name="ITU" ColumnName="ITU" />
+          <ScalarProperty Name="ISO31661numeric" ColumnName="ISO31661numeric" />
+          <ScalarProperty Name="ISO31661Alpha3" ColumnName="ISO31661Alpha3" />
+          <ScalarProperty Name="ISO31661Alpha2" ColumnName="ISO31661Alpha2" />
+          <ScalarProperty Name="name_fr" ColumnName="name_fr" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FavoriteAddresses">
+      <EntityTypeMapping TypeName="BallyTaxiModel.FavoriteAddress">
+        <MappingFragment StoreEntitySet="FavoriteAddresses">
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="FavoriteIndex" ColumnName="FavoriteIndex" />
+          <ScalarProperty Name="DestinationAddress" ColumnName="DestinationAddress" />
+          <ScalarProperty Name="PickUpAddress" ColumnName="PickUpAddress" />
+          <ScalarProperty Name="DestinationLocation" ColumnName="DestinationLocation" />
+          <ScalarProperty Name="PickUpLocation" ColumnName="PickUpLocation" />
+          <ScalarProperty Name="PassengerId" ColumnName="PassengerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FavoriteDrivers">
+      <EntityTypeMapping TypeName="BallyTaxiModel.FavoriteDriver">
+        <MappingFragment StoreEntitySet="FavoriteDrivers">
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="DriverId" ColumnName="DriverId" />
+          <ScalarProperty Name="PassengerId" ColumnName="PassengerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Images">
+      <EntityTypeMapping TypeName="BallyTaxiModel.Image">
+        <MappingFragment StoreEntitySet="Images">
+          <ScalarProperty Name="Extension" ColumnName="Extension" />
+          <ScalarProperty Name="ImageId" ColumnName="ImageId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Languages">
+      <EntityTypeMapping TypeName="BallyTaxiModel.Language">
+        <MappingFragment StoreEntitySet="Languages">
+          <ScalarProperty Name="LanguageCulture" ColumnName="LanguageCulture" />
+          <ScalarProperty Name="LanguageName" ColumnName="LanguageName" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders_Drivers">
+      <EntityTypeMapping TypeName="BallyTaxiModel.Orders_Drivers">
+        <MappingFragment StoreEntitySet="Orders_Drivers">
+          <ScalarProperty Name="isReadTheOrderForDriver" ColumnName="isReadTheOrderForDriver" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="StatusId" ColumnName="StatusId" />
+          <ScalarProperty Name="DriverId" ColumnName="DriverId" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PendingUsers">
+      <EntityTypeMapping TypeName="BallyTaxiModel.PendingUser">
+        <MappingFragment StoreEntitySet="PendingUsers">
+          <ScalarProperty Name="CodeExpiration" ColumnName="CodeExpiration" />
+          <ScalarProperty Name="CodeSent" ColumnName="CodeSent" />
+          <ScalarProperty Name="RegistrationDate" ColumnName="RegistrationDate" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="CodeValidation" ColumnName="CodeValidation" />
+          <ScalarProperty Name="PendingUserId" ColumnName="PendingUserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SupportedCountries">
+      <EntityTypeMapping TypeName="BallyTaxiModel.SupportedCountry">
+        <MappingFragment StoreEntitySet="SupportedCountries">
+          <ScalarProperty Name="IsSupported" ColumnName="IsSupported" />
+          <ScalarProperty Name="ISOcode" ColumnName="ISOcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="BallyTaxiModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="isFromIVR" ColumnName="isFromIVR" />
+          <ScalarProperty Name="lastSendNotificationForUpdate" ColumnName="lastSendNotificationForUpdate" />
+          <ScalarProperty Name="isReadTermsOfUse" ColumnName="isReadTermsOfUse" />
+          <ScalarProperty Name="isFromStations" ColumnName="isFromStations" />
+          <ScalarProperty Name="isVirtual" ColumnName="isVirtual" />
+          <ScalarProperty Name="isHandicapped" ColumnName="isHandicapped" />
+          <ScalarProperty Name="BusinessId" ColumnName="BusinessId" />
+          <ScalarProperty Name="businessCity" ColumnName="businessCity" />
+          <ScalarProperty Name="businessAddress" ColumnName="businessAddress" />
+          <ScalarProperty Name="locationBusiness" ColumnName="locationBusiness" />
+          <ScalarProperty Name="homeCity" ColumnName="homeCity" />
+          <ScalarProperty Name="homeAddress" ColumnName="homeAddress" />
+          <ScalarProperty Name="locationHome" ColumnName="locationHome" />
+          <ScalarProperty Name="isFromWeb" ColumnName="isFromWeb" />
+          <ScalarProperty Name="PayPalId" ColumnName="PayPalId" />
+          <ScalarProperty Name="PreferedStationId" ColumnName="PreferedStationId" />
+          <ScalarProperty Name="DriverValidNotificationToken" ColumnName="DriverValidNotificationToken" />
+          <ScalarProperty Name="PassengerValidNotificationToken" ColumnName="PassengerValidNotificationToken" />
+          <ScalarProperty Name="PreferredPaymentMethod" ColumnName="PreferredPaymentMethod" />
+          <ScalarProperty Name="IsDebug" ColumnName="IsDebug" />
+          <ScalarProperty Name="AlwaysApproveSum" ColumnName="AlwaysApproveSum" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="ImageId" ColumnName="ImageId" />
+          <ScalarProperty Name="AppVersion" ColumnName="AppVersion" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="AuthenticationToken" ColumnName="AuthenticationToken" />
+          <ScalarProperty Name="VersionOS" ColumnName="VersionOS" />
+          <ScalarProperty Name="PlatformId" ColumnName="PlatformId" />
+          <ScalarProperty Name="DriverNotificationToken" ColumnName="DriverNotificationToken" />
+          <ScalarProperty Name="PassengerNotificationToken" ColumnName="PassengerNotificationToken" />
+          <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="RegistrationDate" ColumnName="RegistrationDate" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SystemSettings">
+      <EntityTypeMapping TypeName="BallyTaxiModel.SystemSetting">
+        <MappingFragment StoreEntitySet="SystemSettings">
+          <ScalarProperty Name="ParamValue" ColumnName="ParamValue" />
+          <ScalarProperty Name="ParamKey" ColumnName="ParamKey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaxiStations">
+      <EntityTypeMapping TypeName="BallyTaxiModel.TaxiStation">
+        <MappingFragment StoreEntitySet="TaxiStations">
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="IsoCountry" ColumnName="IsoCountry" />
+          <ScalarProperty Name="StationOperator" ColumnName="StationOperator" />
+          <ScalarProperty Name="EnglishName" ColumnName="EnglishName" />
+          <ScalarProperty Name="HebrewName" ColumnName="HebrewName" />
+          <ScalarProperty Name="StationId" ColumnName="StationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="BallyTaxiModel.Order">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="isIVROrder" ColumnName="isIVROrder" />
+          <ScalarProperty Name="isInterCityForPayment" ColumnName="isInterCityForPayment" />
+          <ScalarProperty Name="NotesForAdmin" ColumnName="NotesForAdmin" />
+          <ScalarProperty Name="isPayedForDriver" ColumnName="isPayedForDriver" />
+          <ScalarProperty Name="isOfflineOrder" ColumnName="isOfflineOrder" />
+          <ScalarProperty Name="PreferedStationId" ColumnName="PreferedStationId" />
+          <ScalarProperty Name="isFromStations" ColumnName="isFromStations" />
+          <ScalarProperty Name="orderCount" ColumnName="orderCount" />
+          <ScalarProperty Name="errorId" ColumnName="errorId" />
+          <ScalarProperty Name="isVirtual" ColumnName="isVirtual" />
+          <ScalarProperty Name="isReadTheOrderForDriver" ColumnName="isReadTheOrderForDriver" />
+          <ScalarProperty Name="isReadTheOrder" ColumnName="isReadTheOrder" />
+          <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+          <ScalarProperty Name="priceForInterCity" ColumnName="priceForInterCity" />
+          <ScalarProperty Name="courier" ColumnName="courier" />
+          <ScalarProperty Name="isHandicapped" ColumnName="isHandicapped" />
+          <ScalarProperty Name="seats" ColumnName="seats" />
+          <ScalarProperty Name="isWithDiscount" ColumnName="isWithDiscount" />
+          <ScalarProperty Name="businessId" ColumnName="businessId" />
+          <ScalarProperty Name="tip" ColumnName="tip" />
+          <ScalarProperty Name="isFromWeb" ColumnName="isFromWeb" />
+          <ScalarProperty Name="FileNumber" ColumnName="FileNumber" />
+          <ScalarProperty Name="transactionId" ColumnName="transactionId" />
+          <ScalarProperty Name="pickUpCityName" ColumnName="pickUpCityName" />
+          <ScalarProperty Name="destinationCityName" ColumnName="destinationCityName" />
+          <ScalarProperty Name="isInterCity" ColumnName="isInterCity" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="Currency" ColumnName="Currency" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="PaymentMethod" ColumnName="PaymentMethod" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="LastUpdateFlowStep" ColumnName="LastUpdateFlowStep" />
+          <ScalarProperty Name="FlowStep" ColumnName="FlowStep" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="StatusId" ColumnName="StatusId" />
+          <ScalarProperty Name="DriverId" ColumnName="DriverId" />
+          <ScalarProperty Name="PassengerId" ColumnName="PassengerId" />
+          <ScalarProperty Name="OrderTime" ColumnName="OrderTime" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="DestinationAddress" ColumnName="DestinationAddress" />
+          <ScalarProperty Name="PickUpAddress" ColumnName="PickUpAddress" />
+          <ScalarProperty Name="DestinationLocation" ColumnName="DestinationLocation" />
+          <ScalarProperty Name="PickUpLocation" ColumnName="PickUpLocation" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BusinessApprovedPhones">
+      <EntityTypeMapping TypeName="BallyTaxiModel.BusinessApprovedPhone">
+        <MappingFragment StoreEntitySet="BusinessApprovedPhones">
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="CancelledDate" ColumnName="CancelledDate" />
+          <ScalarProperty Name="ApprovedDate" ColumnName="ApprovedDate" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="BusinessId" ColumnName="BusinessId" />
+          <ScalarProperty Name="BusinessApprovedPhoneId" ColumnName="BusinessApprovedPhoneId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Businesses">
+      <EntityTypeMapping TypeName="BallyTaxiModel.Business">
+        <MappingFragment StoreEntitySet="Businesses">
+          <ScalarProperty Name="defaultLocationAddress" ColumnName="defaultLocationAddress" />
+          <ScalarProperty Name="taxiStationId" ColumnName="taxiStationId" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+          <ScalarProperty Name="isReadTermsofUse" ColumnName="isReadTermsofUse" />
+          <ScalarProperty Name="CompanyPhone" ColumnName="CompanyPhone" />
+          <ScalarProperty Name="isNeedFile" ColumnName="isNeedFile" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="PayPalAccountId" ColumnName="PayPalAccountId" />
+          <ScalarProperty Name="BusinessName" ColumnName="BusinessName" />
+          <ScalarProperty Name="IsoCountry" ColumnName="IsoCountry" />
+          <ScalarProperty Name="BusinessId" ColumnName="BusinessId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Drivers">
+      <EntityTypeMapping TypeName="BallyTaxiModel.Driver">
+        <MappingFragment StoreEntitySet="Drivers">
+          <ScalarProperty Name="heading" ColumnName="heading" />
+          <ScalarProperty Name="dateEndBlock" ColumnName="dateEndBlock" />
+          <ScalarProperty Name="isBlocked" ColumnName="isBlocked" />
+          <ScalarProperty Name="productionYear" ColumnName="productionYear" />
+          <ScalarProperty Name="companyNumber" ColumnName="companyNumber" />
+          <ScalarProperty Name="tz" ColumnName="tz" />
+          <ScalarProperty Name="studentCard" ColumnName="studentCard" />
+          <ScalarProperty Name="authorizedDealer" ColumnName="authorizedDealer" />
+          <ScalarProperty Name="courier" ColumnName="courier" />
+          <ScalarProperty Name="isHandicapped" ColumnName="isHandicapped" />
+          <ScalarProperty Name="isPrivate" ColumnName="isPrivate" />
+          <ScalarProperty Name="UpdateLocationStatus" ColumnName="UpdateLocationStatus" />
+          <ScalarProperty Name="seats" ColumnName="seats" />
+          <ScalarProperty Name="payment" ColumnName="payment" />
+          <ScalarProperty Name="driverCode" ColumnName="driverCode" />
+          <ScalarProperty Name="paymentMethod" ColumnName="paymentMethod" />
+          <ScalarProperty Name="PayPalId" ColumnName="PayPalId" />
+          <ScalarProperty Name="CCProviderNumber" ColumnName="CCProviderNumber" />
+          <ScalarProperty Name="IdentityCardNumber" ColumnName="IdentityCardNumber" />
+          <ScalarProperty Name="BankHolderName" ColumnName="BankHolderName" />
+          <ScalarProperty Name="BankAccount" ColumnName="BankAccount" />
+          <ScalarProperty Name="BankBranch" ColumnName="BankBranch" />
+          <ScalarProperty Name="BankNumber" ColumnName="BankNumber" />
+          <ScalarProperty Name="ChargeCCId" ColumnName="ChargeCCId" />
+          <ScalarProperty Name="AcceptsCC" ColumnName="AcceptsCC" />
+          <ScalarProperty Name="TaxiStationId" ColumnName="TaxiStationId" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="WantFutureRide" ColumnName="WantFutureRide" />
+          <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+          <ScalarProperty Name="TaxiLicense" ColumnName="TaxiLicense" />
+          <ScalarProperty Name="CarType" ColumnName="CarType" />
+          <ScalarProperty Name="LastUpdateLocation" ColumnName="LastUpdateLocation" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="LicensePlate" ColumnName="LicensePlate" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CreditCards">
+      <EntityTypeMapping TypeName="BallyTaxiModel.CreditCard">
+        <MappingFragment StoreEntitySet="CreditCards">
+          <ScalarProperty Name="Token" ColumnName="Token" />
+          <ScalarProperty Name="IsDefaultCard" ColumnName="IsDefaultCard" />
+          <ScalarProperty Name="CardHolderId" ColumnName="CardHolderId" />
+          <ScalarProperty Name="CardHolderName" ColumnName="CardHolderName" />
+          <ScalarProperty Name="CVV" ColumnName="CVV" />
+          <ScalarProperty Name="ExpYear" ColumnName="ExpYear" />
+          <ScalarProperty Name="ExpMonth" ColumnName="ExpMonth" />
+          <ScalarProperty Name="LastFourDigits" ColumnName="LastFourDigits" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="CardId" ColumnName="CardId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Messages">
+      <EntityTypeMapping TypeName="BallyTaxiModel.Message">
+        <MappingFragment StoreEntitySet="Messages">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="MessageContent" ColumnName="MessageContent" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="MessageId" ColumnName="MessageId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Passengers">
+      <EntityTypeMapping TypeName="BallyTaxiModel.Passenger">
+        <MappingFragment StoreEntitySet="Passengers">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="BallyTaxiModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Versions">
+      <EntityTypeMapping TypeName="BallyTaxiModel.Version">
+        <MappingFragment StoreEntitySet="Versions">
+          <ScalarProperty Name="Version1" ColumnName="Version" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PriceBetweenCities">
+      <EntityTypeMapping TypeName="BallyTaxiModel.PriceBetweenCity">
+        <MappingFragment StoreEntitySet="PriceBetweenCities">
+          <ScalarProperty Name="PriceOnNight" ColumnName="PriceOnNight" />
+          <ScalarProperty Name="PriceOnDay" ColumnName="PriceOnDay" />
+          <ScalarProperty Name="Cities" ColumnName="Cities" />
+          <ScalarProperty Name="PriceBetweenCitiesID" ColumnName="PriceBetweenCitiesID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="BallyTaxiModel.Account">
+        <MappingFragment StoreEntitySet="Accounts">
+          <ScalarProperty Name="Role" ColumnName="Role" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="BusinessId" ColumnName="BusinessId" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="AccountId" ColumnName="AccountId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CarTypes">
+      <EntityTypeMapping TypeName="BallyTaxiModel.CarType">
+        <MappingFragment StoreEntitySet="CarTypes">
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="IsoCountry" ColumnName="IsoCountry" />
+          <ScalarProperty Name="StationOperator" ColumnName="StationOperator" />
+          <ScalarProperty Name="EnglishName" ColumnName="EnglishName" />
+          <ScalarProperty Name="HebrewName" ColumnName="HebrewName" />
+          <ScalarProperty Name="CarTypeId" ColumnName="CarTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ISR_TaxiStations">
+      <EntityTypeMapping TypeName="BallyTaxiModel.ISR_TaxiStations">
+        <MappingFragment StoreEntitySet="ISR_TaxiStations">
+          <ScalarProperty Name="DriverCode" ColumnName="DriverCode" />
+          <ScalarProperty Name="StationName" ColumnName="StationName" />
+          <ScalarProperty Name="StationId" ColumnName="StationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="mysp_deleteUser" FunctionName="BallyTaxiModel.Store.mysp_deleteUser" />
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="BallyTaxiModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="BallyTaxiModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="BallyTaxiModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="BallyTaxiModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BallyTaxiModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="BallyTaxiModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BallyTaxiModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="BallyTaxiModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="BallyTaxiModel.Store.sp_upgraddiagrams" />
+    <EntitySetMapping Name="PhoneDriversApproveds">
+      <EntityTypeMapping TypeName="BallyTaxiModel.PhoneDriversApproved">
+        <MappingFragment StoreEntitySet="PhoneDriversApproved">
+          <ScalarProperty Name="phone" ColumnName="phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Coupons">
+      <EntityTypeMapping TypeName="BallyTaxiModel.Coupon">
+        <MappingFragment StoreEntitySet="Coupon">
+          <ScalarProperty Name="passengerIdSMS" ColumnName="passengerIdSMS" />
+          <ScalarProperty Name="passengerId" ColumnName="passengerId" />
+          <ScalarProperty Name="orderId" ColumnName="orderId" />
+          <ScalarProperty Name="dtEnd" ColumnName="dtEnd" />
+          <ScalarProperty Name="dtStart" ColumnName="dtStart" />
+          <ScalarProperty Name="currency" ColumnName="currency" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="number" ColumnName="number" />
+          <ScalarProperty Name="couponId" ColumnName="couponId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CreditCardUsers">
+      <EntityTypeMapping TypeName="BallyTaxiModel.CreditCardUser">
+        <MappingFragment StoreEntitySet="CreditCardUser">
+          <ScalarProperty Name="isDefault" ColumnName="isDefault" />
+          <ScalarProperty Name="expdate" ColumnName="expdate" />
+          <ScalarProperty Name="cvv" ColumnName="cvv" />
+          <ScalarProperty Name="tokenId" ColumnName="tokenId" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="creditCardUser1" ColumnName="creditCardUser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Banks">
+      <EntityTypeMapping TypeName="BallyTaxiModel.Bank">
+        <MappingFragment StoreEntitySet="Banks">
+          <ScalarProperty Name="bankName" ColumnName="bankName" />
+          <ScalarProperty Name="bankId" ColumnName="bankId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DriverRegions">
+      <EntityTypeMapping TypeName="BallyTaxiModel.DriverRegion">
+        <MappingFragment StoreEntitySet="DriverRegion">
+          <ScalarProperty Name="driverId" ColumnName="driverId" />
+          <ScalarProperty Name="regionId" ColumnName="regionId" />
+          <ScalarProperty Name="driverRegionId" ColumnName="driverRegionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LocationForRegions">
+      <EntityTypeMapping TypeName="BallyTaxiModel.LocationForRegion">
+        <MappingFragment StoreEntitySet="LocationForRegion">
+          <ScalarProperty Name="location" ColumnName="location" />
+          <ScalarProperty Name="locationId" ColumnName="locationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Regions">
+      <EntityTypeMapping TypeName="BallyTaxiModel.Region">
+        <MappingFragment StoreEntitySet="Region">
+          <ScalarProperty Name="taxiStationId" ColumnName="taxiStationId" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="regionId" ColumnName="regionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="RegionLocation" TypeName="BallyTaxiModel.RegionLocation" StoreEntitySet="RegionLocation">
+      <EndProperty Name="Region">
+        <ScalarProperty Name="regionId" ColumnName="regionId" />
+      </EndProperty>
+      <EndProperty Name="LocationForRegion">
+        <ScalarProperty Name="locationId" ColumnName="locationId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="AccountsForAdmins">
+      <EntityTypeMapping TypeName="BallyTaxiModel.AccountsForAdmin">
+        <MappingFragment StoreEntitySet="AccountsForAdmin">
+          <ScalarProperty Name="roleId" ColumnName="roleId" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="userName" ColumnName="userName" />
+          <ScalarProperty Name="accountId" ColumnName="accountId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="priceForInterCity_update">
+      <EntityTypeMapping TypeName="BallyTaxiModel.priceForInterCity_update">
+        <MappingFragment StoreEntitySet="priceForInterCity-update">
+          <ScalarProperty Name="price2" ColumnName="price2" />
+          <ScalarProperty Name="price1" ColumnName="price1" />
+          <ScalarProperty Name="destinationCity" ColumnName="destinationCity" />
+          <ScalarProperty Name="pickUpCity" ColumnName="pickUpCity" />
+          <ScalarProperty Name="rowId" ColumnName="rowId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PriceForInterCityNewUpdates">
+      <EntityTypeMapping TypeName="BallyTaxiModel.PriceForInterCityNewUpdate">
+        <MappingFragment StoreEntitySet="PriceForInterCityNewUpdate">
+          <ScalarProperty Name="price2" ColumnName="price2" />
+          <ScalarProperty Name="price1" ColumnName="price1" />
+          <ScalarProperty Name="destinationCity" ColumnName="destinationCity" />
+          <ScalarProperty Name="pickUpCity" ColumnName="pickUpCity" />
+          <ScalarProperty Name="rowId" ColumnName="rowId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="rider_users_">
+      <EntityTypeMapping TypeName="BallyTaxiModel.rider_users_">
+        <MappingFragment StoreEntitySet="rider_users$">
+          <ScalarProperty Name="phone" ColumnName="phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,91 @@
+/*!
+Rider
+ */
+
+
+body {
+	direction: rtl;
+}
+.movie {
+	padding-top:50px;
+}
+
+header {
+		background: none;
+}
+
+section {
+		padding: 0;
+}
+
+.container {
+	padding: 0;
+}
+
+.navbar {
+	direction:rtl;
+}
+
+.navbar-header {
+	float:right;
+}
+
+.first-section-break-1, .second-section-break-1, .third-section-break-1, .fourth-section-break-1, .fifth-section-break-1{
+	height: 63px;
+}
+
+
+.first-section-text, .second-section-text, .third-section-text, .fourth-section-text, .fifth-section-text{
+	font-size: 24pt;
+}
+
+.first-section-break-2, .second-section-break-2, .second-section-break-2, .second-section-break-2, .second-section-break-2{
+	height: 50px;
+}
+
+.about-text {
+	font-size: 18pt;
+	text-align:right;
+	padding-left:90px;
+}
+
+
+.navbar-default .nav > li > a {
+  font-family: 'Heebo';
+  font-size: 15pt;
+}
+
+.phone_distribution {
+	height: 100%; 
+	width: 100%; 
+	object-fit: contain;
+}
+
+.news {
+	/*height: 100%;*/ 
+	width: 100%; 
+	object-fit: contain;
+}
+
+.download {
+	positive:fixed;
+	z-index:1;
+	left:25%;
+	top:25%;
+}
+
+.top-left {
+	position: relative;
+	left: 0; 
+	top: 0;
+}
+
+.video {
+	position: relative;
+	left: 0; 
+	top: 0;
+	width:100%;
+	height:auto;
+	z-index:-1;
+}
+

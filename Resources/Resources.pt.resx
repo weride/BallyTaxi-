@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AmountDispute" xml:space="preserve">
+    <value>Desculpe, o passageiro não aceita a taxa de passeio.</value>
+  </data>
+  <data name="ChooseCreditCard" xml:space="preserve">
+    <value>Escolha um cartão de crédito para cobrar</value>
+  </data>
+  <data name="DriverArrived" xml:space="preserve">
+    <value>Seu táxi está aqui!</value>
+  </data>
+  <data name="DriverCancelledRide" xml:space="preserve">
+    <value>Desculpe, mas o motorista cancelou o piloto, Você quer que nós procuremos outro driver?</value>
+  </data>
+  <data name="DriverFound" xml:space="preserve">
+    <value>Encontramos driver para você</value>
+  </data>
+  <data name="DriverNotFound" xml:space="preserve">
+    <value>Desculpe, mas não há táxi disponível para você, tente novamente mais tarde</value>
+  </data>
+  <data name="Driver_Register_SMS_Text" xml:space="preserve">
+    <value>Bem-vindo ao Weride. Seu código de autorização é {0}</value>
+  </data>
+  <data name="NewRideRequest" xml:space="preserve">
+    <value>Nós temos um passeio novo para você de {0}</value>
+  </data>
+  <data name="NoCreditCard" xml:space="preserve">
+    <value>Nenhum cartão de crédito para cobrar</value>
+  </data>
+  <data name="PayInTaxi" xml:space="preserve">
+    <value>Seu Passeio terminou, por favor, pague o taxista.</value>
+  </data>
+  <data name="PaymentError" xml:space="preserve">
+    <value>Não foi possível cobrar cartão de crédito.</value>
+  </data>
+  <data name="PaymentSuccessful" xml:space="preserve">
+    <value>Pagamento bem sucedido!</value>
+  </data>
+  <data name="PayWithPayPal" xml:space="preserve">
+    <value>Seu Passeio terminou, o pagamento é feito através de sua conta Paypal</value>
+  </data>
+  <data name="ReminderForFutureRide" xml:space="preserve">
+    <value>Você se lembra? Você tem um passeio em {0} de {1}</value>
+  </data>
+  <data name="RideAllocated" xml:space="preserve">
+    <value>Você foi alocado um passeio!</value>
+  </data>
+  <data name="RideNotRelevantAnymore" xml:space="preserve">
+    <value>Desculpe, mas o passeio já foi levado por outro taxista.</value>
+  </data>
+  <data name="UserCancelRideRequest" xml:space="preserve">
+    <value>Desculpe, mas o usuário cancelou o passeio</value>
+  </data>
+  <data name="paypalPassengerError" xml:space="preserve">
+    <value>Desculpe, não há permissão para cobrar sua conta Paypal, por favor, pague em dinheiro</value>
+  </data>
+  <data name="paypalDriverError" xml:space="preserve">
+    <value>Não há permissão para cobrar a conta Paypal do passageiro, o pagamento será em dinheiro</value>
+  </data>
+  <data name="PayWithBuissness" xml:space="preserve">
+    <value>Seu passeio terminou, o pagamento é feito throgh a companhia</value>
+  </data>
+  <data name="CanceledTrip1" xml:space="preserve">
+    <value>Caro Taxista, Lamentamos que sua viagem tenha sido cancelada.</value>
+  </data>
+  <data name="CanceledTrip2" xml:space="preserve">
+    <value>Esperamos melhor sucesso na próxima viagem e empreendimento.</value>
+  </data>
+  <data name="CanceledTripTitle" xml:space="preserve">
+    <value>Viagem Cancelada</value>
+  </data>
+  <data name="CompleteTrip1" xml:space="preserve">
+    <value>Prezado taxista, Você completou outra viagem e recebeu {0} NIS.</value>
+  </data>
+  <data name="CompleteTrip2" xml:space="preserve">
+    <value>Melhor do sucesso continuado em seu risco de negócio.</value>
+  </data>
+  <data name="CompleteTripTitle" xml:space="preserve">
+    <value>Viagem Completa - Sucesso</value>
+  </data>
+  <data name="endMail" xml:space="preserve">
+    <value>- Werider App</value>
+  </data>
+  <data name="Register1" xml:space="preserve">
+    <value>Dear Taxista, Bem-vindo ao Werider!</value>
+  </data>
+  <data name="Register2" xml:space="preserve">
+    <value>Seu registro está completo e você está agora disponível para começar a receber viagens!</value>
+  </data>
+  <data name="Register3" xml:space="preserve">
+    <value>Desejamos-lhe o melhor de sucesso em seu novo empreendimento.</value>
+  </data>
+  <data name="RegisterTitle" xml:space="preserve">
+    <value>Registro completo - Bem-vindo</value>
+  </data>
+  <data name="sms_register" xml:space="preserve">
+    <value>Prezado taxista! Seu número foi adicionado. Inscreva-se agora! TAXISTA WERIDER</value>
+  </data>
+  <data name="SMSToPhones" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="DriverFoundSMS" xml:space="preserve">
+    <value>Encontramos taxista para vocę. Seu telefone é {0}.</value>
+  </data>
+  <data name="riderCancelled" xml:space="preserve">
+    <value>Desculpe, mas seu passeio foi cancelado</value>
+  </data>
+  <data name="DriverArriveInFutureRide" xml:space="preserve">
+    <value>O seu táxi está aqui!</value>
+  </data>
+  <data name="CanceledTripForPass1" xml:space="preserve">
+    <value>Caro passageiro, Lamentamos que a sua viagem tenha sido cancelada.</value>
+  </data>
+  <data name="CanceledTripForPass2" xml:space="preserve">
+    <value>Esperamos melhor sucesso na próxima viagem e empreendimento.</value>
+  </data>
+  <data name="CompletedTripPass1" xml:space="preserve">
+    <value>Caro passageiro, Obrigado por usar Werider App para outra viagem.</value>
+  </data>
+  <data name="CompletedTripPass2" xml:space="preserve">
+    <value>Esperamos que tenha gostado da experiência.</value>
+  </data>
+  <data name="creaditCardDriverError" xml:space="preserve">
+        <value>Não há autorização para cobrar o cartão de crédito do passageiro, o pagamento será efetuado em {0}, a viagem foi fechada</value>
+  </data>
+  <data name="Business" xml:space="preserve">
+    <value>o negócio</value>
+  </data>
+  <data name="Cash" xml:space="preserve">
+    <value>dinheiro</value>
+  </data>
+  <data name="CreditCard" xml:space="preserve">
+    <value>cartão de crédito</value>
+  </data>
+  <data name="Paypal" xml:space="preserve">
+    <value>PayPal</value>
+  </data>
+  <data name="AllDrivers" xml:space="preserve">
+    <value>Prezado taxista, abra o aplicativo para se qualificar para o NIS 1000. Cavaleiro</value>
+  </data>
+  <data name="AllPassengers" xml:space="preserve">
+    <value>Caro passageiro, Os motoristas estão esperando para levá-lo ao seu próximo destino. Livro agora!</value>
+  </data>
+  <data name="CreditCardPassengerError" xml:space="preserve">
+    <value>Desculpe, não há permissão para cobrar seu cartão de crédito, por favor, pague em dinheiro</value>
+  </data>
+  <data name="CouponTextForSMS" xml:space="preserve">
+    <value>Você recebeu um cupom avaliado em {0} NIS! Digite o código {1} antes do próximo passeio para resgatá-lo. * O cupom é válido por apenas um mês. Werider App.</value>
+  </data>
+  <data name="PaymentSuccessfulAndCoupon" xml:space="preserve">
+    <value>Sua viagem foi paga por cupom no valor de {0} NIS. Werider transferirá esse valor para sua conta até o final do mês</value>
+  </data>
+  <data name="sendToGetLocation" xml:space="preserve">
+    <value>Prezado taxista! Atualize seu aplicativo do Google Play</value>
+  </data>
+  <data name="notFoundTaxiWithDiscount" xml:space="preserve">
+    <value>Desculpe, não conseguimos encontrar um táxi disponível com 30% de desconto. Gostaria de encontrar um táxi com a tarifa regular?</value>
+  </data>
+  <data name="notFoundTaxiWithHandicapped" xml:space="preserve">
+    <value>Desculpe, não conseguimos encontrar um táxi disponível com acesso para deficientes. Gostaria de encontrar um táxi regular?</value>
+  </data>
+  <data name="notFoundTaxiWithCourier" xml:space="preserve">
+    <value>Desculpe, não foi possível encontrar um courier disponível. Gostaria de encontrar um táxi regular?</value>
+  </data>
+  <data name="check" xml:space="preserve">
+    <value>Verifica</value>
+  </data>
+  <data name="UserCancelFutureRideRequest" xml:space="preserve">
+    <value>Desculpe, mas o usuário cancelou o passeio em {0} de {1}</value>
+  </data>
+  <data name="DriverCancelledFutureRide" xml:space="preserve">
+    <value>Desculpe, mas o driver cancelou o piloto em {0} de {1}, Você quer que nós procuremos outro driver?</value>
+  </data>
+  <data name="massageForDriver" xml:space="preserve">
+    <value>Prezado taxista! Atualize seu aplicativo</value>
+  </data>
+  <data name="massageForPassenger" xml:space="preserve">
+    <value>Caro passageiro! Atualize seu aplicativo</value>
+  </data>
+  <data name="driverNotFoundFirst" xml:space="preserve">
+    <value>Desculpe, mas não há táxi disponível para você, Você quer que nós procure novamente?</value>
+  </data>
+  <data name="FutureRideCannotCancelled" xml:space="preserve">
+    <value>Um passeio futuro não pode ser cancelado em menos de meia hora</value>
+  </data>
+  <data name="recivedFutureRide" xml:space="preserve">
+    <value>Comece o passeio futuro</value>
+  </data>
+  <data name="RegionStringForDriver" xml:space="preserve">
+    <value>Área: {0} Classificação: {1}</value>
+  </data>
+  <data name="RidePrice" xml:space="preserve">
+    <value>A tarifa é {0}</value>
+  </data>
+  <data name="PassengerRefuseRidePrice" xml:space="preserve">
+    <value>O preço pode não estar correto, entre novamente o preço</value>
+  </data>
+  <data name="RideEndedSuccessfull" xml:space="preserve">
+    <value>A viagem terminou com sucesso!</value>
+  </data>
+  <data name="RideEndedSuccessfullAndTip" xml:space="preserve">
+    <value>A viagem foi completada com sucesso! Uma dica de {0} foi recebida</value>
+  </data>
+</root>

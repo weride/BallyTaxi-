@@ -1,0 +1,72 @@
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Quickode.BallyTaxi.Core.dll.config
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Quickode.BallyTaxi.Core.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Quickode.BallyTaxi.Core.pdb
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\log4net.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Newtonsoft.Json.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Resources.pdb
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\log4net.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Newtonsoft.Json.xml
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\HE-IL\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\obj\Debug\Quickode.BallyTaxi.Core.csprojResolveAssemblyReference.cache
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\obj\Debug\Quickode.BallyTaxi.Core.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\obj\Debug\Quickode.BallyTaxi.Core.pdb
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\ar\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\es\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\fr\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\pt\Resources.resources.dll
+C:\DEV\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\ru\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Quickode.BallyTaxi.Core.dll.config
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Quickode.BallyTaxi.Core.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Quickode.BallyTaxi.Core.pdb
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\log4net.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Newtonsoft.Json.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Resources.pdb
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\log4net.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Newtonsoft.Json.xml
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\ar\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\es\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\fr\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\HE-IL\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\pt\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\ru\Resources.resources.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\obj\Debug\Quickode.BallyTaxi.Core.csprojResolveAssemblyReference.cache
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\obj\Debug\Quickode.BallyTaxi.Core.dll
+C:\HM-SOFT-TECH-LTD\לקוחות\משה RIDER\new\BalyTaxiApp2\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\obj\Debug\Quickode.BallyTaxi.Core.pdb
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Quickode.BallyTaxi.Core.dll.config
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Quickode.BallyTaxi.Core.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Quickode.BallyTaxi.Core.pdb
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\log4net.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Resources.pdb
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\log4net.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\ar\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\es\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\fr\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\HE-IL\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\pt\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\bin\Debug\ru\Resources.resources.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\obj\Debug\Quickode.BallyTaxi.Core.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\obj\Debug\Quickode.BallyTaxi.Core.dll
+C:\Users\user\Desktop\ServerSide-master-aa10b1f7ca5a8534f44f2779c99423421a9520c2\Quickode.BallyTaxi.Core\obj\Debug\Quickode.BallyTaxi.Core.pdb
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.Core\bin\Debug\Quickode.BallyTaxi.Core.dll.config
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.Core\bin\Debug\Quickode.BallyTaxi.Core.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.Core\bin\Debug\Quickode.BallyTaxi.Core.pdb
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.Core\bin\Debug\log4net.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.Core\bin\Debug\Newtonsoft.Json.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.Core\bin\Debug\Resources.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.Core\bin\Debug\Resources.pdb
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.Core\bin\Debug\log4net.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.Core\bin\Debug\Newtonsoft.Json.xml
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.Core\bin\Debug\ar\Resources.resources.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.Core\bin\Debug\es\Resources.resources.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.Core\bin\Debug\fr\Resources.resources.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.Core\bin\Debug\HE-IL\Resources.resources.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.Core\bin\Debug\pt\Resources.resources.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.Core\bin\Debug\ru\Resources.resources.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.Core\obj\Debug\Quickode.BallyTaxi.Core.dll
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.Core\obj\Debug\Quickode.BallyTaxi.Core.pdb
+C:\NewDev\BallyTaxi\Quickode.BallyTaxi.Core\obj\Debug\Quickode.BallyTaxi.Core.csprojResolveAssemblyReference.cache

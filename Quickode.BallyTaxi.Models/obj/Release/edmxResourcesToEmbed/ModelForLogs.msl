@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="DataLocationDrivers">
+      <EntityTypeMapping TypeName="Model.DataLocationDrivers">
+        <MappingFragment StoreEntitySet="DataLocationDrivers">
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="LastUpdateLocation" ColumnName="LastUpdateLocation" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="DataLocationDrivers1" ColumnName="DataLocationDrivers" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
